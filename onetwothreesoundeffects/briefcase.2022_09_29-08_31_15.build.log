@@ -1,0 +1,396 @@
+Date/Time:       2022-09-29 08:31:16 
+Command line:    C:\Users\tzema\AppData\Roaming\Python\Python310\Scripts\briefcase build
+
+OS Release:      Windows 10
+OS Version:      10.0.18363
+Architecture:    AMD64
+Platform:        Windows-10-10.0.18363-SP0
+
+Python exe:      C:\Program Files\Python310\python.exe
+Python version:  3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.9
+Target platform: windows
+Target format:   app
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\tzema\AppData\Roaming
+    CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+    CHOCOLATEYLASTPATHUPDATE=133022356521885653
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=LAPTOP-T-D-613
+    COMSPEC=C:\Windows\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\tzema
+    JAVA_HOME=C:\Program Files\Android\jdk\jdk-8.0.302.8-hotspot\jdk8u302-b08
+    LOCALAPPDATA=C:\Users\tzema\AppData\Local
+    LOGONSERVER=\\LAPTOP-T-D-613
+    NUMBER_OF_PROCESSORS=8
+    ONEDRIVE=C:\Users\tzema\OneDrive
+    ONEDRIVECONSUMER=C:\Users\tzema\OneDrive
+    OS=Windows_NT
+    PATH=C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\IncrediBuild;C:\Program Files\Java\jdk-18.0.1.1\bin\javac;C:\Program Files\Java\jdk-18.0.1.1\bin\jar;C:\Users\tzema\Downloads\itch-plan-install\itch-plan-install\vendor\;C:\ProgramData\chocolatey\bin;C:\Users\tzema\AppData\Local\Vbsedit\x64;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\tzema\AppData\Roaming\Python\Python310\Scripts;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Users\tzema\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\tzema\AppData\Local\Programs\Python\Python310\;C:\Users\tzema\AppData\Local\Microsoft\WindowsApps;C:\Users\tzema\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Users\tzema\AppData\Local\GitHubDesktop\bin;C:\ProgramData\tzema\GitHubDesktop\bin
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=8e0c
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=$P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    PYCHARM COMMUNITY EDITION=C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\Windows
+    TEMP=C:\Users\tzema\AppData\Local\Temp
+    TMP=C:\Users\tzema\AppData\Local\Temp
+    USERDOMAIN=LAPTOP-T-D-613
+    USERDOMAIN_ROAMINGPROFILE=LAPTOP-T-D-613
+    USERNAME=tzema
+    USERPROFILE=C:\Users\tzema
+    WINDIR=C:\Windows
+    ZES_ENABLE_SYSMAN=1
+
+Briefcase Log:
+[08:31:14]                                                                                                                                                             create.py:674
+           [onetwothreesoundeffects] Generating application template...                                                                                                create.py:674
+           Using app template: C:\Users\tzema\Downloads\briefcase-windows-app-template-main.zip, branch 3.10                                                           create.py:250
+           Assigning onetwothreesoundeffects an application GUID of 24b587a3-bf36-579a-ad81-6b01f194a204                                                              __init__.py:62
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\__main__.py:15 in main                                                                                   │
+│                                                                                                                                                                                  │
+│   12 │   │   command, options = parse_cmdline(sys.argv[1:])                                                                                                                      │
+│   13 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   14 │   │   command.parse_config("pyproject.toml")                                                                                                                              │
+│ > 15 │   │   command(**options)                                                                                                                                                  │
+│   16 │   │   result = 0                                                                                                                                                          │
+│   17 │   except HelpText as e:                                                                                                                                                   │
+│   18 │   │   log.info()                                                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────── locals ─────────────────────────────────────────────┐                                                                              │
+│ │ command = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x000001FC8F866DA0> │                                                                              │
+│ │     log = <briefcase.console.Log object at 0x000001FC8D56DD80>                                  │                                                                              │
+│ │ options = {'update': False}                                                                     │                                                                              │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                              │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\build.py:58 in __call__                                                                         │
+│                                                                                                                                                                                  │
+│   55 │   │   else:                                                                                                                                                               │
+│   56 │   │   │   state = None                                                                                                                                                    │
+│   57 │   │   │   for app_name, app in sorted(self.apps.items()):                                                                                                                 │
+│ > 58 │   │   │   │   state = self._build_app(                                                                                                                                    │
+│   59 │   │   │   │   │   app, update=update, **full_options(state, options)                                                                                                      │
+│   60 │   │   │   │   )                                                                                                                                                           │
+│   61                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────── locals ─────────────────────────────────────────────┐                                                                             │
+│ │      app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                │                                                                             │
+│ │ app_name = 'onetwothreesoundeffects'                                                             │                                                                             │
+│ │  options = {}                                                                                    │                                                                             │
+│ │     self = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x000001FC8F866DA0> │                                                                             │
+│ │    state = None                                                                                  │                                                                             │
+│ │   update = False                                                                                 │                                                                             │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                             │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\build.py:33 in _build_app                                                                       │
+│                                                                                                                                                                                  │
+│   30 │   │   """                                                                                                                                                                 │
+│   31 │   │   target_file = self.bundle_path(app)                                                                                                                                 │
+│   32 │   │   if not target_file.exists():                                                                                                                                        │
+│ > 33 │   │   │   state = self.create_command(app, **options)                                                                                                                     │
+│   34 │   │   elif update:                                                                                                                                                        │
+│   35 │   │   │   state = self.update_command(app, **options)                                                                                                                     │
+│   36 │   │   else:                                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────┐                                     │
+│ │         app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                                                     │                                     │
+│ │     options = {}                                                                                                                         │                                     │
+│ │        self = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x000001FC8F866DA0>                                      │                                     │
+│ │ target_file = WindowsPath('C:/Users/tzema/Documents/GitHub/1-2-3-sound-effects/onetwothreesoundeffects/windows/app/1-2-3 sound effects') │                                     │
+│ │      update = False                                                                                                                      │                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\create.py:707 in __call__                                                                       │
+│                                                                                                                                                                                  │
+│   704 │   │   self.verify_tools()                                                                                                                                                │
+│   705 │   │                                                                                                                                                                      │
+│   706 │   │   if app:                                                                                                                                                            │
+│ > 707 │   │   │   state = self.create_app(app, **options)                                                                                                                        │
+│   708 │   │   else:                                                                                                                                                              │
+│   709 │   │   │   state = None                                                                                                                                                   │
+│   710 │   │   │   for app_name, app in sorted(self.apps.items()):                                                                                                                │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────── locals ─────────────────────────────────────────────┐                                                                             │
+│ │     app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                 │                                                                             │
+│ │ options = {}                                                                                     │                                                                             │
+│ │    self = <briefcase.platforms.windows.app.WindowsAppCreateCommand object at 0x000001FC8F9192A0> │                                                                             │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                             │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\create.py:675 in create_app                                                                     │
+│                                                                                                                                                                                  │
+│   672 │   │   │   self.shutil.rmtree(bundle_path)                                                                                                                                │
+│   673 │   │                                                                                                                                                                      │
+│   674 │   │   self.logger.info("Generating application template...", prefix=app.app_name)                                                                                        │
+│ > 675 │   │   self.generate_app_template(app=app)                                                                                                                                │
+│   676 │   │                                                                                                                                                                      │
+│   677 │   │   self.logger.info("Installing support package...", prefix=app.app_name)                                                                                             │
+│   678 │   │   self.install_app_support_package(app=app)                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────┐                                     │
+│ │         app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                                                     │                                     │
+│ │ bundle_path = WindowsPath('C:/Users/tzema/Documents/GitHub/1-2-3-sound-effects/onetwothreesoundeffects/windows/app/1-2-3 sound effects') │                                     │
+│ │     options = {}                                                                                                                         │                                     │
+│ │        self = <briefcase.platforms.windows.app.WindowsAppCreateCommand object at 0x000001FC8F9192A0>                                     │                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\create.py:284 in generate_app_template                                                          │
+│                                                                                                                                                                                  │
+│   281 │   │   │   output_path = self.bundle_path(app).parent                                                                                                                     │
+│   282 │   │   │   output_path.mkdir(parents=True, exist_ok=True)                                                                                                                 │
+│   283 │   │   │   # Unroll the template                                                                                                                                          │
+│ > 284 │   │   │   self.cookiecutter(                                                                                                                                             │
+│   285 │   │   │   │   str(cached_template),                                                                                                                                      │
+│   286 │   │   │   │   no_input=True,                                                                                                                                             │
+│   287 │   │   │   │   output_dir=os.fsdecode(output_path),                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────┐                                                     │
+│ │             app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                                 │                                                     │
+│ │ cached_template = 'C:\\Users\\tzema\\Downloads\\briefcase-windows-app-template-main.zip'                                 │                                                     │
+│ │   extra_context = {                                                                                                      │                                                     │
+│ │                   │   'project_name': '1-2-3 sound effects',                                                             │                                                     │
+│ │                   │   'license': 'MIT license',                                                                          │                                                     │
+│ │                   │   'app_name': 'onetwothreesoundeffects',                                                             │                                                     │
+│ │                   │   'version': '0.0.1',                                                                                │                                                     │
+│ │                   │   'bundle': 'com.example',                                                                           │                                                     │
+│ │                   │   'description': 'an application with sound effects',                                                │                                                     │
+│ │                   │   'sources': ['src/onetwothreesoundeffects'],                                                        │                                                     │
+│ │                   │   'formal_name': '1-2-3 sound effects',                                                              │                                                     │
+│ │                   │   'url': 'https://coolcoder613.glitch.me/download',                                                  │                                                     │
+│ │                   │   'author': 'coolcoder613',                                                                          │                                                     │
+│ │                   │   ... +16                                                                                            │                                                     │
+│ │                   }                                                                                                      │                                                     │
+│ │     output_path = WindowsPath('C:/Users/tzema/Documents/GitHub/1-2-3-sound-effects/onetwothreesoundeffects/windows/app') │                                                     │
+│ │            self = <briefcase.platforms.windows.app.WindowsAppCreateCommand object at 0x000001FC8F9192A0>                 │                                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\main.py:102 in cookiecutter                                                                           │
+│                                                                                                                                                                                  │
+│    99 │   │   # prompt the user to manually configure at the command line.                                                                                                       │
+│   100 │   │   # except when 'no-input' flag is set                                                                                                                               │
+│   101 │   │   with import_patch:                                                                                                                                                 │
+│ > 102 │   │   │   context['cookiecutter'] = prompt_for_config(context, no_input)                                                                                                 │
+│   103 │   │                                                                                                                                                                      │
+│   104 │   │   # include template dir or url in the context dict                                                                                                                  │
+│   105 │   │   context['cookiecutter']['_template'] = template                                                                                                                    │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │        accept_hooks = True                                                                                                                                                   │ │
+│ │            checkout = '3.10'                                                                                                                                                 │ │
+│ │             cleanup = True                                                                                                                                                   │ │
+│ │         config_dict = {                                                                                                                                                      │ │
+│ │                       │   'cookiecutters_dir': 'C:\\Users\\tzema/.cookiecutters/',                                                                                           │ │
+│ │                       │   'replay_dir': 'C:\\Users\\tzema/.cookiecutter_replay/',                                                                                            │ │
+│ │                       │   'default_context': OrderedDict(),                                                                                                                  │ │
+│ │                       │   'abbreviations': {'gh': 'https://github.com/{0}.git', 'gl': 'https://gitlab.com/{0}.git', 'bb': 'https://bitbucket.org/{0}'}                       │ │
+│ │                       }                                                                                                                                                      │ │
+│ │         config_file = None                                                                                                                                                   │ │
+│ │             context = OrderedDict([('cookiecutter', OrderedDict([('formal_name', '1-2-3 sound effects'), ('app_name', 'onetwothreesoundeffects'), ('module_name',            │ │
+│ │                       'onetwothreesoundeffects'), ('version_triple', '0.0.1'), ('author', 'coolcoder613'), ('author_email', 'coolcoder613@outlook.com'), ('url',             │ │
+│ │                       'https://coolcoder613.glitch.me/download'), ('description', 'an application with sound effects'), ('guid', '24b587a3-bf36-579a-ad81-6b01f194a204'),    │ │
+│ │                       ('install_scope', None), ('python_version', '3.10.5'), ('_extensions', ['briefcase.integrations.cookiecutter.PythonVersionExtension'])]))])            │ │
+│ │        context_file = 'C:\\Users\\tzema\\AppData\\Local\\Temp\\tmp6v554rr2\\briefcase-windows-app-template-mai'+19                                                           │ │
+│ │      default_config = False                                                                                                                                                  │ │
+│ │           directory = None                                                                                                                                                   │ │
+│ │       extra_context = {                                                                                                                                                      │ │
+│ │                       │   'project_name': '1-2-3 sound effects',                                                                                                             │ │
+│ │                       │   'license': 'MIT license',                                                                                                                          │ │
+│ │                       │   'app_name': 'onetwothreesoundeffects',                                                                                                             │ │
+│ │                       │   'version': '0.0.1',                                                                                                                                │ │
+│ │                       │   'bundle': 'com.example',                                                                                                                           │ │
+│ │                       │   'description': 'an application with sound effects',                                                                                                │ │
+│ │                       │   'sources': ['src/onetwothreesoundeffects'],                                                                                                        │ │
+│ │                       │   'formal_name': '1-2-3 sound effects',                                                                                                              │ │
+│ │                       │   'url': 'https://coolcoder613.glitch.me/download',                                                                                                  │ │
+│ │                       │   'author': 'coolcoder613',                                                                                                                          │ │
+│ │                       │   ... +16                                                                                                                                            │ │
+│ │                       }                                                                                                                                                      │ │
+│ │        import_patch = <cookiecutter.main._patch_import_path_for_repo object at 0x000001FC8FA59720>                                                                           │ │
+│ │            no_input = True                                                                                                                                                   │ │
+│ │          output_dir = 'C:\\Users\\tzema\\Documents\\GitHub\\1-2-3-sound-effects\\onetwothreesoundeffects\\wind'+7                                                            │ │
+│ │ overwrite_if_exists = False                                                                                                                                                  │ │
+│ │            password = None                                                                                                                                                   │ │
+│ │              replay = None                                                                                                                                                   │ │
+│ │            repo_dir = 'C:\\Users\\tzema\\AppData\\Local\\Temp\\tmp6v554rr2\\briefcase-windows-app-template-mai'+1                                                            │ │
+│ │ skip_if_file_exists = False                                                                                                                                                  │ │
+│ │            template = 'C:\\Users\\tzema\\Downloads\\briefcase-windows-app-template-main.zip'                                                                                 │ │
+│ │       template_name = 'briefcase-windows-app-template-main'                                                                                                                  │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\prompt.py:185 in prompt_for_config                                                                    │
+│                                                                                                                                                                                  │
+│   182 │   :param no_input: Prompt the user at command line for manual configuration?                                                                                             │
+│   183 │   """                                                                                                                                                                    │
+│   184 │   cookiecutter_dict = OrderedDict([])                                                                                                                                    │
+│ > 185 │   env = StrictEnvironment(context=context)                                                                                                                               │
+│   186 │                                                                                                                                                                          │
+│   187 │   # First pass: Handle simple and raw variables, plus choices.                                                                                                           │
+│   188 │   # These must be done first because the dictionaries keys and                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │           context = OrderedDict([('cookiecutter', OrderedDict([('formal_name', '1-2-3 sound effects'), ('app_name', 'onetwothreesoundeffects'), ('module_name',              │ │
+│ │                     'onetwothreesoundeffects'), ('version_triple', '0.0.1'), ('author', 'coolcoder613'), ('author_email', 'coolcoder613@outlook.com'), ('url',               │ │
+│ │                     'https://coolcoder613.glitch.me/download'), ('description', 'an application with sound effects'), ('guid', '24b587a3-bf36-579a-ad81-6b01f194a204'),      │ │
+│ │                     ('install_scope', None), ('python_version', '3.10.5'), ('_extensions', ['briefcase.integrations.cookiecutter.PythonVersionExtension'])]))])              │ │
+│ │ cookiecutter_dict = OrderedDict()                                                                                                                                            │ │
+│ │          no_input = True                                                                                                                                                     │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\environment.py:65 in __init__                                                                         │
+│                                                                                                                                                                                  │
+│   62 │   │                                                                                                                                                                       │
+│   63 │   │   Also loading extensions defined in cookiecutter.json's _extensions key.                                                                                             │
+│   64 │   │   """                                                                                                                                                                 │
+│ > 65 │   │   super().__init__(undefined=StrictUndefined, **kwargs)                                                                                                               │
+│   66                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │ __class__ = <class 'cookiecutter.environment.StrictEnvironment'>                                                                                                             │ │
+│ │    kwargs = {                                                                                                                                                                │ │
+│ │             │   'context': OrderedDict([('cookiecutter', OrderedDict([('formal_name', '1-2-3 sound effects'), ('app_name', 'onetwothreesoundeffects'), ('module_name',       │ │
+│ │             'onetwothreesoundeffects'), ('version_triple', '0.0.1'), ('author', 'coolcoder613'), ('author_email', 'coolcoder613@outlook.com'), ('url',                       │ │
+│ │             'https://coolcoder613.glitch.me/download'), ('description', 'an application with sound effects'), ('guid', '24b587a3-bf36-579a-ad81-6b01f194a204'),              │ │
+│ │             ('install_scope', None), ('python_version', '3.10.5'), ('_extensions', ['briefcase.integrations.cookiecutter.PythonVersionExtension'])]))])                      │ │
+│ │             }                                                                                                                                                                │ │
+│ │      self = <cookiecutter.environment.StrictEnvironment object at 0x000001FC8F91AB60>                                                                                        │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\environment.py:35 in __init__                                                                         │
+│                                                                                                                                                                                  │
+│   32 │   │   extensions = default_extensions + self._read_extensions(context)                                                                                                    │
+│   33 │   │                                                                                                                                                                       │
+│   34 │   │   try:                                                                                                                                                                │
+│ > 35 │   │   │   super().__init__(extensions=extensions, **kwargs)                                                                                                               │
+│   36 │   │   except ImportError as err:                                                                                                                                          │
+│   37 │   │   │   raise UnknownExtension(f'Unable to load extension: {err}')                                                                                                      │
+│   38                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │          __class__ = <class 'cookiecutter.environment.ExtensionLoaderMixin'>                                                                                                 │ │
+│ │            context = OrderedDict([('cookiecutter', OrderedDict([('formal_name', '1-2-3 sound effects'), ('app_name', 'onetwothreesoundeffects'), ('module_name',             │ │
+│ │                      'onetwothreesoundeffects'), ('version_triple', '0.0.1'), ('author', 'coolcoder613'), ('author_email', 'coolcoder613@outlook.com'), ('url',              │ │
+│ │                      'https://coolcoder613.glitch.me/download'), ('description', 'an application with sound effects'), ('guid', '24b587a3-bf36-579a-ad81-6b01f194a204'),     │ │
+│ │                      ('install_scope', None), ('python_version', '3.10.5'), ('_extensions', ['briefcase.integrations.cookiecutter.PythonVersionExtension'])]))])             │ │
+│ │ default_extensions = [                                                                                                                                                       │ │
+│ │                      │   'cookiecutter.extensions.JsonifyExtension',                                                                                                         │ │
+│ │                      │   'cookiecutter.extensions.RandomStringExtension',                                                                                                    │ │
+│ │                      │   'cookiecutter.extensions.SlugifyExtension',                                                                                                         │ │
+│ │                      │   'cookiecutter.extensions.UUIDExtension',                                                                                                            │ │
+│ │                      │   'jinja2_time.TimeExtension'                                                                                                                         │ │
+│ │                      ]                                                                                                                                                       │ │
+│ │         extensions = [                                                                                                                                                       │ │
+│ │                      │   'cookiecutter.extensions.JsonifyExtension',                                                                                                         │ │
+│ │                      │   'cookiecutter.extensions.RandomStringExtension',                                                                                                    │ │
+│ │                      │   'cookiecutter.extensions.SlugifyExtension',                                                                                                         │ │
+│ │                      │   'cookiecutter.extensions.UUIDExtension',                                                                                                            │ │
+│ │                      │   'jinja2_time.TimeExtension',                                                                                                                        │ │
+│ │                      │   'briefcase.integrations.cookiecutter.PythonVersionExtension'                                                                                        │ │
+│ │                      ]                                                                                                                                                       │ │
+│ │             kwargs = {'undefined': <class 'jinja2.runtime.StrictUndefined'>}                                                                                                 │ │
+│ │               self = <cookiecutter.environment.StrictEnvironment object at 0x000001FC8F91AB60>                                                                               │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py:363 in __init__                                                                              │
+│                                                                                                                                                                                  │
+│    360 │   │   self.policies = DEFAULT_POLICIES.copy()                                                                                                                           │
+│    361 │   │                                                                                                                                                                     │
+│    362 │   │   # load extensions                                                                                                                                                 │
+│ >  363 │   │   self.extensions = load_extensions(self, extensions)                                                                                                               │
+│    364 │   │                                                                                                                                                                     │
+│    365 │   │   self.is_async = enable_async                                                                                                                                      │
+│    366 │   │   _environment_config_check(self)                                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────── locals ──────────────────────────────────────────────┐                                                                            │
+│ │           auto_reload = True                                                                      │                                                                            │
+│ │            autoescape = False                                                                     │                                                                            │
+│ │      block_end_string = '%}'                                                                      │                                                                            │
+│ │    block_start_string = '{%'                                                                      │                                                                            │
+│ │        bytecode_cache = None                                                                      │                                                                            │
+│ │            cache_size = 400                                                                       │                                                                            │
+│ │    comment_end_string = '#}'                                                                      │                                                                            │
+│ │  comment_start_string = '{#'                                                                      │                                                                            │
+│ │          enable_async = False                                                                     │                                                                            │
+│ │            extensions = [                                                                         │                                                                            │
+│ │                         │   'cookiecutter.extensions.JsonifyExtension',                           │                                                                            │
+│ │                         │   'cookiecutter.extensions.RandomStringExtension',                      │                                                                            │
+│ │                         │   'cookiecutter.extensions.SlugifyExtension',                           │                                                                            │
+│ │                         │   'cookiecutter.extensions.UUIDExtension',                              │                                                                            │
+│ │                         │   'jinja2_time.TimeExtension',                                          │                                                                            │
+│ │                         │   'briefcase.integrations.cookiecutter.PythonVersionExtension'          │                                                                            │
+│ │                         ]                                                                         │                                                                            │
+│ │              finalize = None                                                                      │                                                                            │
+│ │ keep_trailing_newline = False                                                                     │                                                                            │
+│ │   line_comment_prefix = None                                                                      │                                                                            │
+│ │ line_statement_prefix = None                                                                      │                                                                            │
+│ │                loader = None                                                                      │                                                                            │
+│ │         lstrip_blocks = False                                                                     │                                                                            │
+│ │      newline_sequence = '\n'                                                                      │                                                                            │
+│ │             optimized = True                                                                      │                                                                            │
+│ │                  self = <cookiecutter.environment.StrictEnvironment object at 0x000001FC8F91AB60> │                                                                            │
+│ │           trim_blocks = False                                                                     │                                                                            │
+│ │             undefined = <class 'jinja2.runtime.StrictUndefined'>                                  │                                                                            │
+│ │   variable_end_string = '}}'                                                                      │                                                                            │
+│ │ variable_start_string = '{{'                                                                      │                                                                            │
+│ └───────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py:117 in load_extensions                                                                       │
+│                                                                                                                                                                                  │
+│    114 │                                                                                                                                                                         │
+│    115 │   for extension in extensions:                                                                                                                                          │
+│    116 │   │   if isinstance(extension, str):                                                                                                                                    │
+│ >  117 │   │   │   extension = t.cast(t.Type["Extension"], import_string(extension))                                                                                             │
+│    118 │   │                                                                                                                                                                     │
+│    119 │   │   result[extension.identifier] = extension(environment)                                                                                                             │
+│    120                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────┐                             │
+│ │ environment = <cookiecutter.environment.StrictEnvironment object at 0x000001FC8F91AB60>                                                          │                             │
+│ │   extension = 'briefcase.integrations.cookiecutter.PythonVersionExtension'                                                                       │                             │
+│ │  extensions = [                                                                                                                                  │                             │
+│ │               │   'cookiecutter.extensions.JsonifyExtension',                                                                                    │                             │
+│ │               │   'cookiecutter.extensions.RandomStringExtension',                                                                               │                             │
+│ │               │   'cookiecutter.extensions.SlugifyExtension',                                                                                    │                             │
+│ │               │   'cookiecutter.extensions.UUIDExtension',                                                                                       │                             │
+│ │               │   'jinja2_time.TimeExtension',                                                                                                   │                             │
+│ │               │   'briefcase.integrations.cookiecutter.PythonVersionExtension'                                                                   │                             │
+│ │               ]                                                                                                                                  │                             │
+│ │      result = {                                                                                                                                  │                             │
+│ │               │   'cookiecutter.extensions.JsonifyExtension': <cookiecutter.extensions.JsonifyExtension object at 0x000001FC8FABCD00>,           │                             │
+│ │               │   'cookiecutter.extensions.RandomStringExtension': <cookiecutter.extensions.RandomStringExtension object at 0x000001FC8FABCE20>, │                             │
+│ │               │   'cookiecutter.extensions.SlugifyExtension': <cookiecutter.extensions.SlugifyExtension object at 0x000001FC8FABDD20>,           │                             │
+│ │               │   'cookiecutter.extensions.UUIDExtension': <cookiecutter.extensions.UUIDExtension object at 0x000001FC8FABDB40>,                 │                             │
+│ │               │   'jinja2_time.jinja2_time.TimeExtension': <jinja2_time.jinja2_time.TimeExtension object at 0x000001FC8FABDBD0>                  │                             │
+│ │               }                                                                                                                                  │                             │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                             │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\jinja2\utils.py:149 in import_string                                                                               │
+│                                                                                                                                                                                  │
+│   146 │   │   │   module, _, obj = import_name.rpartition(".")                                ┌────────────────────────────────── locals ──────────────────────────────────┐     │
+│   147 │   │   else:                                                                           │           _ = '.'                                                          │     │
+│   148 │   │   │   return __import__(import_name)                                              │ import_name = 'briefcase.integrations.cookiecutter.PythonVersionExtension' │     │
+│ > 149 │   │   return getattr(__import__(module, None, None, [obj]), obj)                      │      module = 'briefcase.integrations.cookiecutter'                        │     │
+│   150 │   except (ImportError, AttributeError):                                               │         obj = 'PythonVersionExtension'                                     │     │
+│   151 │   │   if not silent:                                                                  │      silent = False                                                        │     │
+│   152 │   │   │   raise                                                                       └────────────────────────────────────────────────────────────────────────────┘     │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+AttributeError: module 'briefcase.integrations.cookiecutter' has no attribute 'PythonVersionExtension'

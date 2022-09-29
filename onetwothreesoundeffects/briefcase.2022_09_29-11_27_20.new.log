@@ -1,0 +1,435 @@
+Date/Time:       2022-09-29 11:27:20 
+Command line:    C:\Users\tzema\AppData\Roaming\Python\Python310\Scripts\briefcase new -t C:\Users\tzema\Downloads\briefcase-windows-app-template-main.zip
+
+OS Release:      Windows 10
+OS Version:      10.0.18363
+Architecture:    AMD64
+Platform:        Windows-10-10.0.18363-SP0
+
+Python exe:      C:\Program Files\Python310\python.exe
+Python version:  3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.9
+Target platform: all
+Target format:   None
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\tzema\AppData\Roaming
+    CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+    CHOCOLATEYLASTPATHUPDATE=133022356521885653
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=LAPTOP-T-D-613
+    COMSPEC=C:\Windows\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\tzema
+    JAVA_HOME=C:\Program Files\Android\jdk\jdk-8.0.302.8-hotspot\jdk8u302-b08
+    LOCALAPPDATA=C:\Users\tzema\AppData\Local
+    LOGONSERVER=\\LAPTOP-T-D-613
+    NUMBER_OF_PROCESSORS=8
+    ONEDRIVE=C:\Users\tzema\OneDrive
+    ONEDRIVECONSUMER=C:\Users\tzema\OneDrive
+    OS=Windows_NT
+    PATH=C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\IncrediBuild;C:\Program Files\Java\jdk-18.0.1.1\bin\javac;C:\Program Files\Java\jdk-18.0.1.1\bin\jar;C:\Users\tzema\Downloads\itch-plan-install\itch-plan-install\vendor\;C:\ProgramData\chocolatey\bin;C:\Users\tzema\AppData\Local\Vbsedit\x64;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\tzema\AppData\Roaming\Python\Python310\Scripts;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Users\tzema\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\tzema\AppData\Local\Programs\Python\Python310\;C:\Users\tzema\AppData\Local\Microsoft\WindowsApps;C:\Users\tzema\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Users\tzema\AppData\Local\GitHubDesktop\bin;C:\ProgramData\tzema\GitHubDesktop\bin
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=8e0c
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=$P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    PYCHARM COMMUNITY EDITION=C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\Windows
+    TEMP=C:\Users\tzema\AppData\Local\Temp
+    TMP=C:\Users\tzema\AppData\Local\Temp
+    USERDOMAIN=LAPTOP-T-D-613
+    USERDOMAIN_ROAMINGPROFILE=LAPTOP-T-D-613
+    USERNAME=tzema
+    USERPROFILE=C:\Users\tzema
+    WINDIR=C:\Windows
+    ZES_ENABLE_SYSMAN=1
+
+Briefcase Log:
+[11:27:04]                                                                                                                                                                new.py:479
+           Let's build a new Briefcase app!                                                                                                                               new.py:480
+                                                                                                                                                                          new.py:481
+                                                                                                                                                                          new.py:275
+           First, we need a formal name for your application. This is the name that will                                                                                            
+           be displayed to humans whenever the name of the application is displayed. It                                                                                             
+           can have spaces and punctuation if you like, and any capitalization will be                                                                                              
+           used as you type it.                                                                                                                                                     
+                                                                                                                                                                          new.py:278
+[11:27:13] Formal Name [Hello World]:                                                                                                                                     new.py:337
+           >>> User input:                                                                                                                                                new.py:337
+                                                                                                                                                                          new.py:275
+           Next, we need a name that can serve as a machine-readable Python package name                                                                                            
+           for your application. This name must be PEP508-compliant - that means the name                                                                                           
+           may only contain letters, numbers, hyphens and underscores; it can't contain                                                                                             
+           spaces or punctuation, and it can't start with a hyphen or underscore.                                                                                                   
+                                                                                                                                                                                    
+           Based on your formal name, we suggest an app name of 'helloworld',                                                                                                       
+           but you can use another name if you want.                                                                                                                                
+                                                                                                                                                                          new.py:278
+           App Name [helloworld]:                                                                                                                                         new.py:351
+           >>> User input:                                                                                                                                                new.py:351
+                                                                                                                                                                          new.py:275
+           Now we need a bundle identifier for your application. App stores need to                                                                                                 
+           protect against having multiple applications with the same name; the bundle                                                                                              
+           identifier is the namespace they use to identify applications that come from                                                                                             
+           you. The bundle identifier is usually the domain name of your company or                                                                                                 
+           project, in reverse order.                                                                                                                                               
+                                                                                                                                                                                    
+           For example, if you are writing an application for Example Corp, whose website                                                                                           
+           is example.com, your bundle would be ``com.example``. The bundle will be                                                                                                 
+           combined with your application's machine readable name to form a complete                                                                                                
+           application identifier (e.g., com.example.helloworld).                                                                                                                   
+                                                                                                                                                                          new.py:278
+           Bundle Identifier [com.example]:                                                                                                                               new.py:368
+           >>> User input:                                                                                                                                                new.py:368
+                                                                                                                                                                          new.py:275
+           Briefcase can manage projects that contain multiple applications, so we need a                                                                                           
+           Project name. If you're only planning to have one application in this                                                                                                    
+           project, you can use the formal name as the project name.                                                                                                                
+                                                                                                                                                                          new.py:278
+[11:27:14] Project Name [Hello World]:                                                                                                                                    new.py:385
+           >>> User input:                                                                                                                                                new.py:385
+                                                                                                                                                                          new.py:275
+           Now, we need a one line description for your application.                                                                                                                
+                                                                                                                                                                          new.py:278
+           Description [My first application]:                                                                                                                            new.py:394
+           >>> User input:                                                                                                                                                new.py:394
+                                                                                                                                                                          new.py:275
+           Who do you want to be credited as the author of this application? This could be                                                                                          
+           your own name, or the name of your company you work for.                                                                                                                 
+                                                                                                                                                                          new.py:278
+[11:27:15] Author [Jane Developer]:                                                                                                                                       new.py:401
+           >>> User input:                                                                                                                                                new.py:401
+                                                                                                                                                                          new.py:275
+           What email address should people use to contact the developers of this                                                                                                   
+           application? This might be your own email address, or a generic contact address                                                                                          
+           you set up specifically for this application.                                                                                                                            
+                                                                                                                                                                          new.py:278
+           Author's Email [jane@example.com]:                                                                                                                             new.py:409
+           >>> User input:                                                                                                                                                new.py:409
+                                                                                                                                                                          new.py:275
+           What is the website URL for this application? If you don't have a website set                                                                                            
+           up yet, you can put in a dummy URL.                                                                                                                                      
+                                                                                                                                                                          new.py:278
+[11:27:16] Application URL [https://example.com/helloworld]:                                                                                                              new.py:419
+           >>> User input:                                                                                                                                                new.py:419
+                                                                                                                                                                          new.py:308
+           What license do you want to use for this project's code?                                                                                                                 
+[11:27:17]                                                                                                                                                                new.py:323
+           Select one of the following:                                                                                                                                             
+                                                                                                                                                                                    
+               [1] BSD license                                                                                                                                                      
+               [2] MIT license                                                                                                                                                      
+               [3] Apache Software License                                                                                                                                          
+               [4] GNU General Public License v2 (GPLv2)                                                                                                                            
+               [5] GNU General Public License v2 or later (GPLv2+)                                                                                                                  
+               [6] GNU General Public License v3 (GPLv3)                                                                                                                            
+               [7] GNU General Public License v3 or later (GPLv3+)                                                                                                                  
+               [8] Proprietary                                                                                                                                                      
+               [9] Other                                                                                                                                                            
+                                                                                                                                                                                    
+           Project License [1]:                                                                                                                                                     
+           >>> User input:                                                                                                                                                new.py:323
+                                                                                                                                                                          new.py:308
+           What GUI toolkit do you want to use for this project?                                                                                                                    
+[11:27:19]                                                                                                                                                                new.py:323
+           Select one of the following:                                                                                                                                             
+                                                                                                                                                                                    
+               [1] Toga                                                                                                                                                             
+               [2] PySide2 (does not support iOS/Android deployment)                                                                                                                
+               [3] PySide6 (does not support iOS/Android deployment)                                                                                                                
+               [4] PursuedPyBear (does not support iOS/Android deployment)                                                                                                          
+               [5] None                                                                                                                                                             
+                                                                                                                                                                                    
+           GUI Framework [1]:                                                                                                                                                       
+           >>> User input:                                                                                                                                                new.py:323
+                                                                                                                                                                          new.py:485
+           Generating a new application 'Hello World'                                                                                                                     new.py:486
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\__main__.py:15 in main                                                                                   │
+│                                                                                                                                                                                  │
+│   12 │   │   command, options = parse_cmdline(sys.argv[1:])                                                                                                                      │
+│   13 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   14 │   │   command.parse_config("pyproject.toml")                                                                                                                              │
+│ > 15 │   │   command(**options)                                                                                                                                                  │
+│   16 │   │   result = 0                                                                                                                                                          │
+│   17 │   except HelpText as e:                                                                                                                                                   │
+│   18 │   │   log.info()                                                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────── locals ────────────────────────────────────────────┐                                                                               │
+│ │ command = <briefcase.commands.new.NewCommand object at 0x0000012E6EF1FD00>                     │                                                                               │
+│ │     log = <briefcase.console.Log object at 0x0000012E6CB8DDB0>                                 │                                                                               │
+│ │ options = {'template': 'C:\\Users\\tzema\\Downloads\\briefcase-windows-app-template-main.zip'} │                                                                               │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                               │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\new.py:537 in __call__                                                                          │
+│                                                                                                                                                                                  │
+│   534 │   │   # Confirm all required tools are available                                                                                                                         │
+│   535 │   │   self.verify_tools()                                                                                                                                                │
+│   536 │   │                                                                                                                                                                      │
+│ > 537 │   │   return self.new_app(template=template, **options)                                                                                                                  │
+│   538                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────── locals ──────────────────────────────────────┐                                                                                            │
+│ │  options = {}                                                                     │                                                                                            │
+│ │     self = <briefcase.commands.new.NewCommand object at 0x0000012E6EF1FD00>       │                                                                                            │
+│ │ template = 'C:\\Users\\tzema\\Downloads\\briefcase-windows-app-template-main.zip' │                                                                                            │
+│ └───────────────────────────────────────────────────────────────────────────────────┘                                                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\new.py:500 in new_app                                                                           │
+│                                                                                                                                                                                  │
+│   497 │   │                                                                                                                                                                      │
+│   498 │   │   try:                                                                                                                                                               │
+│   499 │   │   │   # Unroll the new app template                                                                                                                                  │
+│ > 500 │   │   │   self.cookiecutter(                                                                                                                                             │
+│   501 │   │   │   │   str(cached_template),                                                                                                                                      │
+│   502 │   │   │   │   no_input=True,                                                                                                                                             │
+│   503 │   │   │   │   output_dir=os.fsdecode(self.base_path),                                                                                                                    │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────── locals ─────────────────────────────────────────┐                                                                                     │
+│ │ cached_template = 'C:\\Users\\tzema\\Downloads\\briefcase-windows-app-template-main.zip' │                                                                                     │
+│ │         context = {                                                                      │                                                                                     │
+│ │                   │   'formal_name': 'Hello World',                                      │                                                                                     │
+│ │                   │   'app_name': 'helloworld',                                          │                                                                                     │
+│ │                   │   'class_name': 'HelloWorld',                                        │                                                                                     │
+│ │                   │   'module_name': 'helloworld',                                       │                                                                                     │
+│ │                   │   'project_name': 'Hello World',                                     │                                                                                     │
+│ │                   │   'description': 'My first application',                             │                                                                                     │
+│ │                   │   'author': 'Jane Developer',                                        │                                                                                     │
+│ │                   │   'author_email': 'jane@example.com',                                │                                                                                     │
+│ │                   │   'bundle': 'com.example',                                           │                                                                                     │
+│ │                   │   'url': 'https://example.com/helloworld',                           │                                                                                     │
+│ │                   │   ... +2                                                             │                                                                                     │
+│ │                   }                                                                      │                                                                                     │
+│ │         options = {}                                                                     │                                                                                     │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x0000012E6EF1FD00>       │                                                                                     │
+│ │        template = 'C:\\Users\\tzema\\Downloads\\briefcase-windows-app-template-main.zip' │                                                                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────┘                                                                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\main.py:102 in cookiecutter                                                                           │
+│                                                                                                                                                                                  │
+│    99 │   │   # prompt the user to manually configure at the command line.                                                                                                       │
+│   100 │   │   # except when 'no-input' flag is set                                                                                                                               │
+│   101 │   │   with import_patch:                                                                                                                                                 │
+│ > 102 │   │   │   context['cookiecutter'] = prompt_for_config(context, no_input)                                                                                                 │
+│   103 │   │                                                                                                                                                                      │
+│   104 │   │   # include template dir or url in the context dict                                                                                                                  │
+│   105 │   │   context['cookiecutter']['_template'] = template                                                                                                                    │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │        accept_hooks = True                                                                                                                                                   │ │
+│ │            checkout = 'v0.3'                                                                                                                                                 │ │
+│ │             cleanup = True                                                                                                                                                   │ │
+│ │         config_dict = {                                                                                                                                                      │ │
+│ │                       │   'cookiecutters_dir': 'C:\\Users\\tzema/.cookiecutters/',                                                                                           │ │
+│ │                       │   'replay_dir': 'C:\\Users\\tzema/.cookiecutter_replay/',                                                                                            │ │
+│ │                       │   'default_context': OrderedDict(),                                                                                                                  │ │
+│ │                       │   'abbreviations': {'gh': 'https://github.com/{0}.git', 'gl': 'https://gitlab.com/{0}.git', 'bb': 'https://bitbucket.org/{0}'}                       │ │
+│ │                       }                                                                                                                                                      │ │
+│ │         config_file = None                                                                                                                                                   │ │
+│ │             context = OrderedDict([('cookiecutter', OrderedDict([('formal_name', 'Hello World'), ('app_name', 'helloworld'), ('module_name', 'helloworld'),                  │ │
+│ │                       ('version_triple', '0.0.1'), ('author', 'Jane Developer'), ('author_email', 'jane@example.com'), ('url', 'https://example.com/helloworld'),            │ │
+│ │                       ('description', 'My first application'), ('guid', '1409c8f5-c276-4cf3-a2fd-defcbdfef9a2'), ('install_scope', ''), ('python_version', '3.X.0'),         │ │
+│ │                       ('_extensions', ['briefcase.integrations.cookiecutter.PythonVersionExtension'])]))])                                                                   │ │
+│ │        context_file = 'C:\\Users\\tzema\\AppData\\Local\\Temp\\tmp5ajwq_50\\briefcase-windows-app-template-mai'+19                                                           │ │
+│ │      default_config = False                                                                                                                                                  │ │
+│ │           directory = None                                                                                                                                                   │ │
+│ │       extra_context = {                                                                                                                                                      │ │
+│ │                       │   'formal_name': 'Hello World',                                                                                                                      │ │
+│ │                       │   'app_name': 'helloworld',                                                                                                                          │ │
+│ │                       │   'class_name': 'HelloWorld',                                                                                                                        │ │
+│ │                       │   'module_name': 'helloworld',                                                                                                                       │ │
+│ │                       │   'project_name': 'Hello World',                                                                                                                     │ │
+│ │                       │   'description': 'My first application',                                                                                                             │ │
+│ │                       │   'author': 'Jane Developer',                                                                                                                        │ │
+│ │                       │   'author_email': 'jane@example.com',                                                                                                                │ │
+│ │                       │   'bundle': 'com.example',                                                                                                                           │ │
+│ │                       │   'url': 'https://example.com/helloworld',                                                                                                           │ │
+│ │                       │   ... +2                                                                                                                                             │ │
+│ │                       }                                                                                                                                                      │ │
+│ │        import_patch = <cookiecutter.main._patch_import_path_for_repo object at 0x0000012E6EF5D570>                                                                           │ │
+│ │            no_input = True                                                                                                                                                   │ │
+│ │          output_dir = 'C:\\Users\\tzema\\Documents\\GitHub\\1-2-3-sound-effects\\onetwothreesoundeffects'                                                                    │ │
+│ │ overwrite_if_exists = False                                                                                                                                                  │ │
+│ │            password = None                                                                                                                                                   │ │
+│ │              replay = None                                                                                                                                                   │ │
+│ │            repo_dir = 'C:\\Users\\tzema\\AppData\\Local\\Temp\\tmp5ajwq_50\\briefcase-windows-app-template-mai'+1                                                            │ │
+│ │ skip_if_file_exists = False                                                                                                                                                  │ │
+│ │            template = 'C:\\Users\\tzema\\Downloads\\briefcase-windows-app-template-main.zip'                                                                                 │ │
+│ │       template_name = 'briefcase-windows-app-template-main'                                                                                                                  │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\prompt.py:185 in prompt_for_config                                                                    │
+│                                                                                                                                                                                  │
+│   182 │   :param no_input: Prompt the user at command line for manual configuration?                                                                                             │
+│   183 │   """                                                                                                                                                                    │
+│   184 │   cookiecutter_dict = OrderedDict([])                                                                                                                                    │
+│ > 185 │   env = StrictEnvironment(context=context)                                                                                                                               │
+│   186 │                                                                                                                                                                          │
+│   187 │   # First pass: Handle simple and raw variables, plus choices.                                                                                                           │
+│   188 │   # These must be done first because the dictionaries keys and                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │           context = OrderedDict([('cookiecutter', OrderedDict([('formal_name', 'Hello World'), ('app_name', 'helloworld'), ('module_name', 'helloworld'), ('version_triple', │ │
+│ │                     '0.0.1'), ('author', 'Jane Developer'), ('author_email', 'jane@example.com'), ('url', 'https://example.com/helloworld'), ('description', 'My first       │ │
+│ │                     application'), ('guid', '1409c8f5-c276-4cf3-a2fd-defcbdfef9a2'), ('install_scope', ''), ('python_version', '3.X.0'), ('_extensions',                     │ │
+│ │                     ['briefcase.integrations.cookiecutter.PythonVersionExtension'])]))])                                                                                     │ │
+│ │ cookiecutter_dict = OrderedDict()                                                                                                                                            │ │
+│ │          no_input = True                                                                                                                                                     │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\environment.py:65 in __init__                                                                         │
+│                                                                                                                                                                                  │
+│   62 │   │                                                                                                                                                                       │
+│   63 │   │   Also loading extensions defined in cookiecutter.json's _extensions key.                                                                                             │
+│   64 │   │   """                                                                                                                                                                 │
+│ > 65 │   │   super().__init__(undefined=StrictUndefined, **kwargs)                                                                                                               │
+│   66                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │ __class__ = <class 'cookiecutter.environment.StrictEnvironment'>                                                                                                             │ │
+│ │    kwargs = {                                                                                                                                                                │ │
+│ │             │   'context': OrderedDict([('cookiecutter', OrderedDict([('formal_name', 'Hello World'), ('app_name', 'helloworld'), ('module_name', 'helloworld'),             │ │
+│ │             ('version_triple', '0.0.1'), ('author', 'Jane Developer'), ('author_email', 'jane@example.com'), ('url', 'https://example.com/helloworld'), ('description', 'My  │ │
+│ │             first application'), ('guid', '1409c8f5-c276-4cf3-a2fd-defcbdfef9a2'), ('install_scope', ''), ('python_version', '3.X.0'), ('_extensions',                       │ │
+│ │             ['briefcase.integrations.cookiecutter.PythonVersionExtension'])]))])                                                                                             │ │
+│ │             }                                                                                                                                                                │ │
+│ │      self = <cookiecutter.environment.StrictEnvironment object at 0x0000012E6EE3FC10>                                                                                        │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\environment.py:35 in __init__                                                                         │
+│                                                                                                                                                                                  │
+│   32 │   │   extensions = default_extensions + self._read_extensions(context)                                                                                                    │
+│   33 │   │                                                                                                                                                                       │
+│   34 │   │   try:                                                                                                                                                                │
+│ > 35 │   │   │   super().__init__(extensions=extensions, **kwargs)                                                                                                               │
+│   36 │   │   except ImportError as err:                                                                                                                                          │
+│   37 │   │   │   raise UnknownExtension(f'Unable to load extension: {err}')                                                                                                      │
+│   38                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │          __class__ = <class 'cookiecutter.environment.ExtensionLoaderMixin'>                                                                                                 │ │
+│ │            context = OrderedDict([('cookiecutter', OrderedDict([('formal_name', 'Hello World'), ('app_name', 'helloworld'), ('module_name', 'helloworld'),                   │ │
+│ │                      ('version_triple', '0.0.1'), ('author', 'Jane Developer'), ('author_email', 'jane@example.com'), ('url', 'https://example.com/helloworld'),             │ │
+│ │                      ('description', 'My first application'), ('guid', '1409c8f5-c276-4cf3-a2fd-defcbdfef9a2'), ('install_scope', ''), ('python_version', '3.X.0'),          │ │
+│ │                      ('_extensions', ['briefcase.integrations.cookiecutter.PythonVersionExtension'])]))])                                                                    │ │
+│ │ default_extensions = [                                                                                                                                                       │ │
+│ │                      │   'cookiecutter.extensions.JsonifyExtension',                                                                                                         │ │
+│ │                      │   'cookiecutter.extensions.RandomStringExtension',                                                                                                    │ │
+│ │                      │   'cookiecutter.extensions.SlugifyExtension',                                                                                                         │ │
+│ │                      │   'cookiecutter.extensions.UUIDExtension',                                                                                                            │ │
+│ │                      │   'jinja2_time.TimeExtension'                                                                                                                         │ │
+│ │                      ]                                                                                                                                                       │ │
+│ │         extensions = [                                                                                                                                                       │ │
+│ │                      │   'cookiecutter.extensions.JsonifyExtension',                                                                                                         │ │
+│ │                      │   'cookiecutter.extensions.RandomStringExtension',                                                                                                    │ │
+│ │                      │   'cookiecutter.extensions.SlugifyExtension',                                                                                                         │ │
+│ │                      │   'cookiecutter.extensions.UUIDExtension',                                                                                                            │ │
+│ │                      │   'jinja2_time.TimeExtension',                                                                                                                        │ │
+│ │                      │   'briefcase.integrations.cookiecutter.PythonVersionExtension'                                                                                        │ │
+│ │                      ]                                                                                                                                                       │ │
+│ │             kwargs = {'undefined': <class 'jinja2.runtime.StrictUndefined'>}                                                                                                 │ │
+│ │               self = <cookiecutter.environment.StrictEnvironment object at 0x0000012E6EE3FC10>                                                                               │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py:363 in __init__                                                                              │
+│                                                                                                                                                                                  │
+│    360 │   │   self.policies = DEFAULT_POLICIES.copy()                                                                                                                           │
+│    361 │   │                                                                                                                                                                     │
+│    362 │   │   # load extensions                                                                                                                                                 │
+│ >  363 │   │   self.extensions = load_extensions(self, extensions)                                                                                                               │
+│    364 │   │                                                                                                                                                                     │
+│    365 │   │   self.is_async = enable_async                                                                                                                                      │
+│    366 │   │   _environment_config_check(self)                                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────── locals ──────────────────────────────────────────────┐                                                                            │
+│ │           auto_reload = True                                                                      │                                                                            │
+│ │            autoescape = False                                                                     │                                                                            │
+│ │      block_end_string = '%}'                                                                      │                                                                            │
+│ │    block_start_string = '{%'                                                                      │                                                                            │
+│ │        bytecode_cache = None                                                                      │                                                                            │
+│ │            cache_size = 400                                                                       │                                                                            │
+│ │    comment_end_string = '#}'                                                                      │                                                                            │
+│ │  comment_start_string = '{#'                                                                      │                                                                            │
+│ │          enable_async = False                                                                     │                                                                            │
+│ │            extensions = [                                                                         │                                                                            │
+│ │                         │   'cookiecutter.extensions.JsonifyExtension',                           │                                                                            │
+│ │                         │   'cookiecutter.extensions.RandomStringExtension',                      │                                                                            │
+│ │                         │   'cookiecutter.extensions.SlugifyExtension',                           │                                                                            │
+│ │                         │   'cookiecutter.extensions.UUIDExtension',                              │                                                                            │
+│ │                         │   'jinja2_time.TimeExtension',                                          │                                                                            │
+│ │                         │   'briefcase.integrations.cookiecutter.PythonVersionExtension'          │                                                                            │
+│ │                         ]                                                                         │                                                                            │
+│ │              finalize = None                                                                      │                                                                            │
+│ │ keep_trailing_newline = False                                                                     │                                                                            │
+│ │   line_comment_prefix = None                                                                      │                                                                            │
+│ │ line_statement_prefix = None                                                                      │                                                                            │
+│ │                loader = None                                                                      │                                                                            │
+│ │         lstrip_blocks = False                                                                     │                                                                            │
+│ │      newline_sequence = '\n'                                                                      │                                                                            │
+│ │             optimized = True                                                                      │                                                                            │
+│ │                  self = <cookiecutter.environment.StrictEnvironment object at 0x0000012E6EE3FC10> │                                                                            │
+│ │           trim_blocks = False                                                                     │                                                                            │
+│ │             undefined = <class 'jinja2.runtime.StrictUndefined'>                                  │                                                                            │
+│ │   variable_end_string = '}}'                                                                      │                                                                            │
+│ │ variable_start_string = '{{'                                                                      │                                                                            │
+│ └───────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py:117 in load_extensions                                                                       │
+│                                                                                                                                                                                  │
+│    114 │                                                                                                                                                                         │
+│    115 │   for extension in extensions:                                                                                                                                          │
+│    116 │   │   if isinstance(extension, str):                                                                                                                                    │
+│ >  117 │   │   │   extension = t.cast(t.Type["Extension"], import_string(extension))                                                                                             │
+│    118 │   │                                                                                                                                                                     │
+│    119 │   │   result[extension.identifier] = extension(environment)                                                                                                             │
+│    120                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────┐                             │
+│ │ environment = <cookiecutter.environment.StrictEnvironment object at 0x0000012E6EE3FC10>                                                          │                             │
+│ │   extension = 'briefcase.integrations.cookiecutter.PythonVersionExtension'                                                                       │                             │
+│ │  extensions = [                                                                                                                                  │                             │
+│ │               │   'cookiecutter.extensions.JsonifyExtension',                                                                                    │                             │
+│ │               │   'cookiecutter.extensions.RandomStringExtension',                                                                               │                             │
+│ │               │   'cookiecutter.extensions.SlugifyExtension',                                                                                    │                             │
+│ │               │   'cookiecutter.extensions.UUIDExtension',                                                                                       │                             │
+│ │               │   'jinja2_time.TimeExtension',                                                                                                   │                             │
+│ │               │   'briefcase.integrations.cookiecutter.PythonVersionExtension'                                                                   │                             │
+│ │               ]                                                                                                                                  │                             │
+│ │      result = {                                                                                                                                  │                             │
+│ │               │   'cookiecutter.extensions.JsonifyExtension': <cookiecutter.extensions.JsonifyExtension object at 0x0000012E6F0EDD80>,           │                             │
+│ │               │   'cookiecutter.extensions.RandomStringExtension': <cookiecutter.extensions.RandomStringExtension object at 0x0000012E6F0ED8A0>, │                             │
+│ │               │   'cookiecutter.extensions.SlugifyExtension': <cookiecutter.extensions.SlugifyExtension object at 0x0000012E6F0EEBC0>,           │                             │
+│ │               │   'cookiecutter.extensions.UUIDExtension': <cookiecutter.extensions.UUIDExtension object at 0x0000012E6F0EEA40>,                 │                             │
+│ │               │   'jinja2_time.jinja2_time.TimeExtension': <jinja2_time.jinja2_time.TimeExtension object at 0x0000012E6F0EEA70>                  │                             │
+│ │               }                                                                                                                                  │                             │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                             │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\jinja2\utils.py:149 in import_string                                                                               │
+│                                                                                                                                                                                  │
+│   146 │   │   │   module, _, obj = import_name.rpartition(".")                                ┌────────────────────────────────── locals ──────────────────────────────────┐     │
+│   147 │   │   else:                                                                           │           _ = '.'                                                          │     │
+│   148 │   │   │   return __import__(import_name)                                              │ import_name = 'briefcase.integrations.cookiecutter.PythonVersionExtension' │     │
+│ > 149 │   │   return getattr(__import__(module, None, None, [obj]), obj)                      │      module = 'briefcase.integrations.cookiecutter'                        │     │
+│   150 │   except (ImportError, AttributeError):                                               │         obj = 'PythonVersionExtension'                                     │     │
+│   151 │   │   if not silent:                                                                  │      silent = False                                                        │     │
+│   152 │   │   │   raise                                                                       └────────────────────────────────────────────────────────────────────────────┘     │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+AttributeError: module 'briefcase.integrations.cookiecutter' has no attribute 'PythonVersionExtension'

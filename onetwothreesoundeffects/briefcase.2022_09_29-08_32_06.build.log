@@ -1,0 +1,355 @@
+Date/Time:       2022-09-29 08:32:07 
+Command line:    C:\Users\tzema\AppData\Roaming\Python\Python310\Scripts\briefcase build
+
+OS Release:      Windows 10
+OS Version:      10.0.18363
+Architecture:    AMD64
+Platform:        Windows-10-10.0.18363-SP0
+
+Python exe:      C:\Program Files\Python310\python.exe
+Python version:  3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.9
+Target platform: windows
+Target format:   app
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\tzema\AppData\Roaming
+    CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+    CHOCOLATEYLASTPATHUPDATE=133022356521885653
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=LAPTOP-T-D-613
+    COMSPEC=C:\Windows\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\tzema
+    JAVA_HOME=C:\Program Files\Android\jdk\jdk-8.0.302.8-hotspot\jdk8u302-b08
+    LOCALAPPDATA=C:\Users\tzema\AppData\Local
+    LOGONSERVER=\\LAPTOP-T-D-613
+    NUMBER_OF_PROCESSORS=8
+    ONEDRIVE=C:\Users\tzema\OneDrive
+    ONEDRIVECONSUMER=C:\Users\tzema\OneDrive
+    OS=Windows_NT
+    PATH=C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\IncrediBuild;C:\Program Files\Java\jdk-18.0.1.1\bin\javac;C:\Program Files\Java\jdk-18.0.1.1\bin\jar;C:\Users\tzema\Downloads\itch-plan-install\itch-plan-install\vendor\;C:\ProgramData\chocolatey\bin;C:\Users\tzema\AppData\Local\Vbsedit\x64;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\tzema\AppData\Roaming\Python\Python310\Scripts;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Users\tzema\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\tzema\AppData\Local\Programs\Python\Python310\;C:\Users\tzema\AppData\Local\Microsoft\WindowsApps;C:\Users\tzema\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Users\tzema\AppData\Local\GitHubDesktop\bin;C:\ProgramData\tzema\GitHubDesktop\bin
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=8e0c
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=$P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    PYCHARM COMMUNITY EDITION=C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\Windows
+    TEMP=C:\Users\tzema\AppData\Local\Temp
+    TMP=C:\Users\tzema\AppData\Local\Temp
+    USERDOMAIN=LAPTOP-T-D-613
+    USERDOMAIN_ROAMINGPROFILE=LAPTOP-T-D-613
+    USERNAME=tzema
+    USERPROFILE=C:\Users\tzema
+    WINDIR=C:\Windows
+    ZES_ENABLE_SYSMAN=1
+
+Briefcase Log:
+[08:32:03]                                                                                                                                                             create.py:672
+           [onetwothreesoundeffects] Generating application template...                                                                                                create.py:672
+           Using app template: https://github.com/beeware/briefcase-windows-app-template.git, branch 3.10                                                              create.py:248
+           Assigning onetwothreesoundeffects an application GUID of 24b587a3-bf36-579a-ad81-6b01f194a204                                                              __init__.py:62
+[08:32:06]                                                                                                                                                            __main__.py:22
+           Unable to clone template repository; is your computer offline?                                                                                             __main__.py:23
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\create.py:282 in generate_app_template                                                          │
+│                                                                                                                                                                                  │
+│   279 │   │   │   output_path = self.bundle_path(app).parent                                                                                                                     │
+│   280 │   │   │   output_path.mkdir(parents=True, exist_ok=True)                                                                                                                 │
+│   281 │   │   │   # Unroll the template                                                                                                                                          │
+│ > 282 │   │   │   self.cookiecutter(                                                                                                                                             │
+│   283 │   │   │   │   str(cached_template),                                                                                                                                      │
+│   284 │   │   │   │   no_input=True,                                                                                                                                             │
+│   285 │   │   │   │   output_dir=os.fsdecode(output_path),                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────┐                                                     │
+│ │             app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                                 │                                                     │
+│ │ cached_template = 'https://github.com/beeware/briefcase-windows-app-template.git'                                        │                                                     │
+│ │   extra_context = {                                                                                                      │                                                     │
+│ │                   │   'project_name': '1-2-3 sound effects',                                                             │                                                     │
+│ │                   │   'license': 'MIT license',                                                                          │                                                     │
+│ │                   │   'app_name': 'onetwothreesoundeffects',                                                             │                                                     │
+│ │                   │   'version': '0.0.1',                                                                                │                                                     │
+│ │                   │   'bundle': 'com.example',                                                                           │                                                     │
+│ │                   │   'description': 'an application with sound effects',                                                │                                                     │
+│ │                   │   'sources': ['src/onetwothreesoundeffects'],                                                        │                                                     │
+│ │                   │   'formal_name': '1-2-3 sound effects',                                                              │                                                     │
+│ │                   │   'url': 'https://coolcoder613.glitch.me/download',                                                  │                                                     │
+│ │                   │   'author': 'coolcoder613',                                                                          │                                                     │
+│ │                   │   ... +16                                                                                            │                                                     │
+│ │                   }                                                                                                      │                                                     │
+│ │     output_path = WindowsPath('C:/Users/tzema/Documents/GitHub/1-2-3-sound-effects/onetwothreesoundeffects/windows/app') │                                                     │
+│ │            self = <briefcase.platforms.windows.app.WindowsAppCreateCommand object at 0x000001BEDDF99900>                 │                                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\main.py:69 in cookiecutter                                                                            │
+│                                                                                                                                                                                  │
+│    66 │   │   default_config=default_config,                                                                                                                                     │
+│    67 │   )                                                                                                                                                                      │
+│    68 │                                                                                                                                                                          │
+│ >  69 │   repo_dir, cleanup = determine_repo_dir(                                                                                                                                │
+│    70 │   │   template=template,                                                                                                                                                 │
+│    71 │   │   abbreviations=config_dict['abbreviations'],                                                                                                                        │
+│    72 │   │   clone_to_dir=config_dict['cookiecutters_dir'],                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────┐                       │
+│ │        accept_hooks = True                                                                                                                             │                       │
+│ │            checkout = '3.10'                                                                                                                           │                       │
+│ │         config_dict = {                                                                                                                                │                       │
+│ │                       │   'cookiecutters_dir': 'C:\\Users\\tzema/.cookiecutters/',                                                                     │                       │
+│ │                       │   'replay_dir': 'C:\\Users\\tzema/.cookiecutter_replay/',                                                                      │                       │
+│ │                       │   'default_context': OrderedDict(),                                                                                            │                       │
+│ │                       │   'abbreviations': {                                                                                                           │                       │
+│ │                       │   │   'gh': 'https://github.com/{0}.git',                                                                                      │                       │
+│ │                       │   │   'gl': 'https://gitlab.com/{0}.git',                                                                                      │                       │
+│ │                       │   │   'bb': 'https://bitbucket.org/{0}'                                                                                        │                       │
+│ │                       │   }                                                                                                                            │                       │
+│ │                       }                                                                                                                                │                       │
+│ │         config_file = None                                                                                                                             │                       │
+│ │      default_config = False                                                                                                                            │                       │
+│ │           directory = None                                                                                                                             │                       │
+│ │       extra_context = {                                                                                                                                │                       │
+│ │                       │   'project_name': '1-2-3 sound effects',                                                                                       │                       │
+│ │                       │   'license': 'MIT license',                                                                                                    │                       │
+│ │                       │   'app_name': 'onetwothreesoundeffects',                                                                                       │                       │
+│ │                       │   'version': '0.0.1',                                                                                                          │                       │
+│ │                       │   'bundle': 'com.example',                                                                                                     │                       │
+│ │                       │   'description': 'an application with sound effects',                                                                          │                       │
+│ │                       │   'sources': ['src/onetwothreesoundeffects'],                                                                                  │                       │
+│ │                       │   'formal_name': '1-2-3 sound effects',                                                                                        │                       │
+│ │                       │   'url': 'https://coolcoder613.glitch.me/download',                                                                            │                       │
+│ │                       │   'author': 'coolcoder613',                                                                                                    │                       │
+│ │                       │   ... +16                                                                                                                      │                       │
+│ │                       }                                                                                                                                │                       │
+│ │            no_input = True                                                                                                                             │                       │
+│ │          output_dir = 'C:\\Users\\tzema\\Documents\\GitHub\\1-2-3-sound-effects\\onetwothreesoundeffects\\wind'+7                                      │                       │
+│ │ overwrite_if_exists = False                                                                                                                            │                       │
+│ │            password = None                                                                                                                             │                       │
+│ │              replay = None                                                                                                                             │                       │
+│ │ skip_if_file_exists = False                                                                                                                            │                       │
+│ │            template = 'https://github.com/beeware/briefcase-windows-app-template.git'                                                                  │                       │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                       │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\repository.py:106 in determine_repo_dir                                                               │
+│                                                                                                                                                                                  │
+│   103 │   │   repository_candidates = [unzipped_dir]                                                                                                                             │
+│   104 │   │   cleanup = True                                                                                                                                                     │
+│   105 │   elif is_repo_url(template):                                                                                                                                            │
+│ > 106 │   │   cloned_repo = clone(                                                                                                                                               │
+│   107 │   │   │   repo_url=template,                                                                                                                                             │
+│   108 │   │   │   checkout=checkout,                                                                                                                                             │
+│   109 │   │   │   clone_to_dir=clone_to_dir,                                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────┐                                                  │
+│ │ abbreviations = {'gh': 'https://github.com/{0}.git', 'gl': 'https://gitlab.com/{0}.git', 'bb': 'https://bitbucket.org/{0}'} │                                                  │
+│ │      checkout = '3.10'                                                                                                      │                                                  │
+│ │  clone_to_dir = 'C:\\Users\\tzema/.cookiecutters/'                                                                          │                                                  │
+│ │     directory = None                                                                                                        │                                                  │
+│ │      no_input = True                                                                                                        │                                                  │
+│ │      password = None                                                                                                        │                                                  │
+│ │      template = 'https://github.com/beeware/briefcase-windows-app-template.git'                                             │                                                  │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                  │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\cookiecutter\vcs.py:95 in clone                                                                                    │
+│                                                                                                                                                                                  │
+│    92 │                                                                                                                                                                          │
+│    93 │   if clone:                                                                                                                                                              │
+│    94 │   │   try:                                                                                                                                                               │
+│ >  95 │   │   │   subprocess.check_output(  # nosec                                                                                                                              │
+│    96 │   │   │   │   [repo_type, 'clone', repo_url],                                                                                                                            │
+│    97 │   │   │   │   cwd=clone_to_dir,                                                                                                                                          │
+│    98 │   │   │   │   stderr=subprocess.STDOUT,                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────────── locals ────────────────────────────────────────────────┐                                                                       │
+│ │     checkout = '3.10'                                                                                  │                                                                       │
+│ │        clone = True                                                                                    │                                                                       │
+│ │ clone_to_dir = 'C:\\Users\\tzema/.cookiecutters/'                                                      │                                                                       │
+│ │     no_input = True                                                                                    │                                                                       │
+│ │       output = "Cloning into 'briefcase-windows-app-template'...\nfatal: unable to access 'https:"+123 │                                                                       │
+│ │     repo_dir = 'C:\\Users\\tzema\\.cookiecutters\\briefcase-windows-app-template'                      │                                                                       │
+│ │    repo_name = 'briefcase-windows-app-template'                                                        │                                                                       │
+│ │    repo_type = 'git'                                                                                   │                                                                       │
+│ │     repo_url = 'https://github.com/beeware/briefcase-windows-app-template.git'                         │                                                                       │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                       │
+│                                                                                                                                                                                  │
+│ C:\Program Files\Python310\lib\subprocess.py:420 in check_output                                                                                                                 │
+│                                                                                                                                                                                  │
+│    417 │   │   │   empty = b''                                                                                                                                                   │
+│    418 │   │   kwargs['input'] = empty                                                                                                                                           │
+│    419 │                                                                                                                                                                         │
+│ >  420 │   return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,                                                                                                      │
+│    421 │   │   │      **kwargs).stdout                                                                                                                                           │
+│    422                                                                                                                                                                           │
+│    423                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────── locals ─────────────────────────────────────────────┐                                                                             │
+│ │    kwargs = {'cwd': 'C:\\Users\\tzema/.cookiecutters/', 'stderr': -2}                            │                                                                             │
+│ │ popenargs = (['git', 'clone', 'https://github.com/beeware/briefcase-windows-app-template.git'],) │                                                                             │
+│ │   timeout = None                                                                                 │                                                                             │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                             │
+│                                                                                                                                                                                  │
+│ C:\Program Files\Python310\lib\subprocess.py:524 in run                                                                                                                          │
+│                                                                                                                                                                                  │
+│    521 │   │   │   raise                                                                                                                                                         │
+│    522 │   │   retcode = process.poll()                                                                                                                                          │
+│    523 │   │   if check and retcode:                                                                                                                                             │
+│ >  524 │   │   │   raise CalledProcessError(retcode, process.args,                                                                                                               │
+│    525 │   │   │   │   │   │   │   │   │    output=stdout, stderr=stderr)                                                                                                        │
+│    526 │   return CompletedProcess(process.args, retcode, stdout, stderr)                                                                                                        │
+│    527                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────── locals ──────────────────────────────────────────────────┐                                                                    │
+│ │ capture_output = False                                                                                    │                                                                    │
+│ │          check = True                                                                                     │                                                                    │
+│ │          input = None                                                                                     │                                                                    │
+│ │         kwargs = {'stdout': -1, 'cwd': 'C:\\Users\\tzema/.cookiecutters/', 'stderr': -2}                  │                                                                    │
+│ │      popenargs = (['git', 'clone', 'https://github.com/beeware/briefcase-windows-app-template.git'],)     │                                                                    │
+│ │        process = <Popen: returncode: 128 args: ['git', 'clone', 'https://github.com/beeware/b...>         │                                                                    │
+│ │        retcode = 128                                                                                      │                                                                    │
+│ │         stderr = None                                                                                     │                                                                    │
+│ │         stdout = b"Cloning into 'briefcase-windows-app-template'...\nfatal: unable to access 'https:"+123 │                                                                    │
+│ │        timeout = None                                                                                     │                                                                    │
+│ └───────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                    │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+CalledProcessError: Command '['git', 'clone', 'https://github.com/beeware/briefcase-windows-app-template.git']' returned non-zero exit status 128.
+
+The above exception was the direct cause of the following exception:
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\__main__.py:15 in main                                                                                   │
+│                                                                                                                                                                                  │
+│   12 │   │   command, options = parse_cmdline(sys.argv[1:])                                                                                                                      │
+│   13 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   14 │   │   command.parse_config("pyproject.toml")                                                                                                                              │
+│ > 15 │   │   command(**options)                                                                                                                                                  │
+│   16 │   │   result = 0                                                                                                                                                          │
+│   17 │   except HelpText as e:                                                                                                                                                   │
+│   18 │   │   log.info()                                                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────── locals ─────────────────────────────────────────────┐                                                                              │
+│ │ command = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x000001BEDDEE6DA0> │                                                                              │
+│ │       e = NetworkFailure('clone template repository')                                           │                                                                              │
+│ │     log = <briefcase.console.Log object at 0x000001BEDBC1DD80>                                  │                                                                              │
+│ │ options = {'update': False}                                                                     │                                                                              │
+│ │  result = 200                                                                                   │                                                                              │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                              │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\build.py:58 in __call__                                                                         │
+│                                                                                                                                                                                  │
+│   55 │   │   else:                                                                                                                                                               │
+│   56 │   │   │   state = None                                                                                                                                                    │
+│   57 │   │   │   for app_name, app in sorted(self.apps.items()):                                                                                                                 │
+│ > 58 │   │   │   │   state = self._build_app(                                                                                                                                    │
+│   59 │   │   │   │   │   app, update=update, **full_options(state, options)                                                                                                      │
+│   60 │   │   │   │   )                                                                                                                                                           │
+│   61                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────── locals ─────────────────────────────────────────────┐                                                                             │
+│ │      app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                │                                                                             │
+│ │ app_name = 'onetwothreesoundeffects'                                                             │                                                                             │
+│ │  options = {}                                                                                    │                                                                             │
+│ │     self = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x000001BEDDEE6DA0> │                                                                             │
+│ │    state = None                                                                                  │                                                                             │
+│ │   update = False                                                                                 │                                                                             │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                             │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\build.py:33 in _build_app                                                                       │
+│                                                                                                                                                                                  │
+│   30 │   │   """                                                                                                                                                                 │
+│   31 │   │   target_file = self.bundle_path(app)                                                                                                                                 │
+│   32 │   │   if not target_file.exists():                                                                                                                                        │
+│ > 33 │   │   │   state = self.create_command(app, **options)                                                                                                                     │
+│   34 │   │   elif update:                                                                                                                                                        │
+│   35 │   │   │   state = self.update_command(app, **options)                                                                                                                     │
+│   36 │   │   else:                                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────┐                                     │
+│ │         app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                                                     │                                     │
+│ │     options = {}                                                                                                                         │                                     │
+│ │        self = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x000001BEDDEE6DA0>                                      │                                     │
+│ │ target_file = WindowsPath('C:/Users/tzema/Documents/GitHub/1-2-3-sound-effects/onetwothreesoundeffects/windows/app/1-2-3 sound effects') │                                     │
+│ │      update = False                                                                                                                      │                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\create.py:705 in __call__                                                                       │
+│                                                                                                                                                                                  │
+│   702 │   │   self.verify_tools()                                                                                                                                                │
+│   703 │   │                                                                                                                                                                      │
+│   704 │   │   if app:                                                                                                                                                            │
+│ > 705 │   │   │   state = self.create_app(app, **options)                                                                                                                        │
+│   706 │   │   else:                                                                                                                                                              │
+│   707 │   │   │   state = None                                                                                                                                                   │
+│   708 │   │   │   for app_name, app in sorted(self.apps.items()):                                                                                                                │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────── locals ─────────────────────────────────────────────┐                                                                             │
+│ │     app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                 │                                                                             │
+│ │ options = {}                                                                                     │                                                                             │
+│ │    self = <briefcase.platforms.windows.app.WindowsAppCreateCommand object at 0x000001BEDDF99900> │                                                                             │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                             │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\create.py:673 in create_app                                                                     │
+│                                                                                                                                                                                  │
+│   670 │   │   │   self.shutil.rmtree(bundle_path)                                                                                                                                │
+│   671 │   │                                                                                                                                                                      │
+│   672 │   │   self.logger.info("Generating application template...", prefix=app.app_name)                                                                                        │
+│ > 673 │   │   self.generate_app_template(app=app)                                                                                                                                │
+│   674 │   │                                                                                                                                                                      │
+│   675 │   │   self.logger.info("Installing support package...", prefix=app.app_name)                                                                                             │
+│   676 │   │   self.install_app_support_package(app=app)                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────┐                                     │
+│ │         app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                                                     │                                     │
+│ │ bundle_path = WindowsPath('C:/Users/tzema/Documents/GitHub/1-2-3-sound-effects/onetwothreesoundeffects/windows/app/1-2-3 sound effects') │                                     │
+│ │     options = {}                                                                                                                         │                                     │
+│ │        self = <briefcase.platforms.windows.app.WindowsAppCreateCommand object at 0x000001BEDDF99900>                                     │                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Roaming\Python\Python310\site-packages\briefcase\commands\create.py:292 in generate_app_template                                                          │
+│                                                                                                                                                                                  │
+│   289 │   │   except subprocess.CalledProcessError as e:                                                                                                                         │
+│   290 │   │   │   # Computer is offline                                                                                                                                          │
+│   291 │   │   │   # status code == 128 - certificate validation error.                                                                                                           │
+│ > 292 │   │   │   raise NetworkFailure("clone template repository") from e                                                                                                       │
+│   293 │   │   except cookiecutter_exceptions.RepositoryNotFound as e:                                                                                                            │
+│   294 │   │   │   # Either the template path is invalid,                                                                                                                         │
+│   295 │   │   │   # or it isn't a cookiecutter template (i.e., no cookiecutter.json)                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────┐                                                     │
+│ │             app = <com.example.onetwothreesoundeffects v0.0.1 AppConfig>                                                 │                                                     │
+│ │ cached_template = 'https://github.com/beeware/briefcase-windows-app-template.git'                                        │                                                     │
+│ │   extra_context = {                                                                                                      │                                                     │
+│ │                   │   'project_name': '1-2-3 sound effects',                                                             │                                                     │
+│ │                   │   'license': 'MIT license',                                                                          │                                                     │
+│ │                   │   'app_name': 'onetwothreesoundeffects',                                                             │                                                     │
+│ │                   │   'version': '0.0.1',                                                                                │                                                     │
+│ │                   │   'bundle': 'com.example',                                                                           │                                                     │
+│ │                   │   'description': 'an application with sound effects',                                                │                                                     │
+│ │                   │   'sources': ['src/onetwothreesoundeffects'],                                                        │                                                     │
+│ │                   │   'formal_name': '1-2-3 sound effects',                                                              │                                                     │
+│ │                   │   'url': 'https://coolcoder613.glitch.me/download',                                                  │                                                     │
+│ │                   │   'author': 'coolcoder613',                                                                          │                                                     │
+│ │                   │   ... +16                                                                                            │                                                     │
+│ │                   }                                                                                                      │                                                     │
+│ │     output_path = WindowsPath('C:/Users/tzema/Documents/GitHub/1-2-3-sound-effects/onetwothreesoundeffects/windows/app') │                                                     │
+│ │            self = <briefcase.platforms.windows.app.WindowsAppCreateCommand object at 0x000001BEDDF99900>                 │                                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                     │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+NetworkFailure: Unable to clone template repository; is your computer offline?
