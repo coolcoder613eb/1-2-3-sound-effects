@@ -25,6 +25,10 @@ srooster = SoundLoader.load('sounds/bbc_domestic-f_nhu2.mp3')
 sdoor    = SoundLoader.load('sounds/bbc_wooden-doo_07037344.mp3')
 ssnore   = SoundLoader.load('sounds/snore.mp3')
 
+def krgb(r,g,b,a):
+    return (r/255,g/255,b/255,int(a==255),)
+
+
 def shorseplay(i):
     shorse.play()
 
