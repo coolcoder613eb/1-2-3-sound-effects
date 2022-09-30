@@ -1,0 +1,11 @@
+# ignore
+*.exe
+!*.dist/
+*.build/
+*.onefile-build/
+!1-2-3 sound effects.exe
+*.py
+*.pyw
+!1-2-3 sound effects.py
+*.bat
+!compile.bat
