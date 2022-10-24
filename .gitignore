@@ -9,3 +9,4 @@
 !1-2-3 sound effects.py
 *.bat
 !compile.bat
+.buildozer/
