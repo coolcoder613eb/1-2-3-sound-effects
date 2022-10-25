@@ -1,8 +1,8 @@
 {
-  "name": "com.example",
-  "displayName": "1-2-3-sound-effects",
+  "name": "com.mycompany.myteam.myapp",
+  "displayName": "1-2-3 Sound Effects",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "Sound Effects App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,12 +13,10 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "cordova-android": "^6.2.1",
-    "cordova-windows": "^7.0.1"
+    "cordova-android": "^10.1.2"
   },
   "cordova": {
     "platforms": [
-      "windows",
       "android"
     ]
   }
