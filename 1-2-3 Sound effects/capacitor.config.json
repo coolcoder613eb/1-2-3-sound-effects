@@ -1,0 +1,11 @@
+{
+  "appId": "com.example",
+  "appName": "1-2-3 Sound effects",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
