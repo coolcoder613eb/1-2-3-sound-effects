@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoundApp1.MainPage"
+             Title="1-2-3 Sound Effects">
+    <ScrollView>
+        <Grid
+            Padding="30,30"
+            VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="120" />
+                
+            </Grid.ColumnDefinitions>
+            <!--<Label
+                Grid.Column="0" Grid.Row="0"
+                Grid.ColumnSpan="1"
+                Text="1-2-3 Sound Effects"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />-->
+            <Button
+                Grid.Column="0" Grid.Row="0"
+                x:Name="HorseBtn"
+                Text="Horse"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"/>
+            <Button
+                Grid.Column="1" Grid.Row="0"
+                x:Name="SirenBtn"
+                Text="Siren"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"/>
+            <Button
+                Grid.Column="0" Grid.Row="1"
+                x:Name="GoatBtn"
+                Text="Goat"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"/>
+            <Button
+                Grid.Column="1" Grid.Row="1"
+                x:Name="HonkBtn"
+                Text="Honk"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"/>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

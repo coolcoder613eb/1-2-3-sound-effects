@@ -1,0 +1,84 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-ios16.0": {},
+    "net7.0-ios16.0/iossimulator-x64": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0-ios16.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\tzema\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tzema\\Documents\\GitHub\\1-2-3-sound-effects\\ios\\iOSApp1\\iOSApp1.csproj",
+      "projectName": "iOSApp1",
+      "projectPath": "C:\\Users\\tzema\\Documents\\GitHub\\1-2-3-sound-effects\\ios\\iOSApp1\\iOSApp1.csproj",
+      "packagesPath": "C:\\Users\\tzema\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tzema\\Documents\\GitHub\\1-2-3-sound-effects\\ios\\iOSApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\tzema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-ios"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\tzema\\AppData\\Local\\Cosmos User Kit\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-ios16.0": {
+          "targetAlias": "net7.0-ios",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-ios16.0": {
+        "targetAlias": "net7.0-ios",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.iOS": {
+            "privateAssets": "all"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "iossimulator-x64": {
+        "#import": []
+      }
+    }
+  }
+}
