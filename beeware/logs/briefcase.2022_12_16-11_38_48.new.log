@@ -1,0 +1,526 @@
+Date/Time:       2022-12-16 11:38:49 
+Command line:    C:\Users\tzema\AppData\Local\Programs\Python\Python310\Scripts\briefcase new
+
+OS Release:      Windows 10
+OS Version:      10.0.22000
+Architecture:    AMD64
+Platform:        Windows-10-10.0.22000-SP0
+
+Python exe:      C:\Users\tzema\AppData\Local\Programs\Python\Python310\python.exe
+Python version:  3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.11
+Target platform: all
+Target format:   None
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\tzema\AppData\Roaming
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=LAPTOP-LFN8AIOP
+    COMSPEC=C:\WINDOWS\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+    FPS_BROWSER_USER_PROFILE_STRING=Default
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\tzema
+    LOCALAPPDATA=C:\Users\tzema\AppData\Local
+    LOGONSERVER=\\LAPTOP-LFN8AIOP
+    NUMBER_OF_PROCESSORS=4
+    ONEDRIVE=C:\Users\tzema\OneDrive
+    ONEDRIVECONSUMER=C:\Users\tzema\OneDrive
+    OS=Windows_NT
+    PATH=C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.15.2875.0_x64__8wekyb3d8bbwe;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\tzema\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\;C:\Users\tzema\AppData\Local\Programs\Python\Python310\include\;C:\Users\tzema\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\tzema\AppData\Local\Programs\Python\Python310\;C:\Users\tzema\AppData\Local\Microsoft\WindowsApps;C:\Users\tzema\AppData\Local\GitHubDesktop\bin;C:\Users\tzema\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3\bin;
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.PY;.PYW;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 122 Stepping 1, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=7a01
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=$P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    PYCHARM COMMUNITY EDITION=C:\Program Files\JetBrains\PyCharm Community Edition 2022.3\bin;
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\WINDOWS
+    TEMP=C:\Users\tzema\AppData\Local\Temp
+    TMP=C:\Users\tzema\AppData\Local\Temp
+    USERDOMAIN=LAPTOP-LFN8AIOP
+    USERDOMAIN_ROAMINGPROFILE=LAPTOP-LFN8AIOP
+    USERNAME=tzema
+    USERPROFILE=C:\Users\tzema
+    VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+    WINDIR=C:\WINDOWS
+    WSLENV=WT_SESSION::WT_PROFILE_ID
+    WT_PROFILE_ID={0caa0dad-35be-5f56-a8ff-afceeeaa6101}
+    WT_SESSION=3d97f3f8-9e03-45ba-8e2f-6c1d8258f96c
+
+Briefcase Log:
+[11:38:48]                                                                                                                                                            __main__.py:27
+           Briefcase requires git, but it is not installed (or is not on your PATH). Visit:                                                                           __main__.py:28
+                                                                                                                                                                      __main__.py:28
+               https://git-scm.com/                                                                                                                                   __main__.py:28
+                                                                                                                                                                      __main__.py:28
+           to download and install git manually.                                                                                                                      __main__.py:28
+                                                                                                                                                                      __main__.py:28
+           If you have installed git recently and are still getting this error, you may                                                                               __main__.py:28
+           need to restart your terminal session.                                                                                                                     __main__.py:28
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\git\__init__.py:89 in <module>                                                                          │
+│                                                                                                                                                                                  │
+│   86                                                                                                                                                                             │
+│   87 #################                                                                                                                                                           │
+│   88 try:                                                                                                                                                                        │
+│ ❱ 89 │   refresh()                                                                                                                                                               │
+│   90 except Exception as exc:                                                                                                                                                    │
+│   91 │   raise ImportError("Failed to initialize: {0}".format(exc)) from exc                                                                                                     │
+│   92 #################                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                       __all__ = [                                                                                                                                            │ │
+│ │                                 │   'BadName',                                                                                                                               │ │
+│ │                                 │   'to_hex_sha',                                                                                                                            │ │
+│ │                                 │   'ODBError',                                                                                                                              │ │
+│ │                                 │   'InvalidDBRoot',                                                                                                                         │ │
+│ │                                 │   'BadObject',                                                                                                                             │ │
+│ │                                 │   'ParseError',                                                                                                                            │ │
+│ │                                 │   'AmbiguousObjectName',                                                                                                                   │ │
+│ │                                 │   'BadObjectType',                                                                                                                         │ │
+│ │                                 │   'UnsupportedOperation',                                                                                                                  │ │
+│ │                                 │   'safe_decode',                                                                                                                           │ │
+│ │                                 │   ... +63                                                                                                                                  │ │
+│ │                                 ]                                                                                                                                            │ │
+│ │                  __builtins__ = {                                                                                                                                            │ │
+│ │                                 │   '__name__': 'builtins',                                                                                                                  │ │
+│ │                                 │   '__doc__': 'Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil'+46,                                      │ │
+│ │                                 │   '__package__': '',                                                                                                                       │ │
+│ │                                 │   '__loader__': <class '_frozen_importlib.BuiltinImporter'>,                                                                               │ │
+│ │                                 │   '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>, origin='built-in'),                          │ │
+│ │                                 │   '__build_class__': <built-in function __build_class__>,                                                                                  │ │
+│ │                                 │   '__import__': <built-in function __import__>,                                                                                            │ │
+│ │                                 │   'abs': <built-in function abs>,                                                                                                          │ │
+│ │                                 │   'all': <built-in function all>,                                                                                                          │ │
+│ │                                 │   'any': <built-in function any>,                                                                                                          │ │
+│ │                                 │   ... +146                                                                                                                                 │ │
+│ │                                 }                                                                                                                                            │ │
+│ │                    __cached__ = 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\__p'+33                                             │ │
+│ │                       __doc__ = None                                                                                                                                         │ │
+│ │                      __file__ = 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\__i'+8                                              │ │
+│ │                    __loader__ = <_frozen_importlib_external.SourceFileLoader object at 0x0000028D77FF41F0>                                                                   │ │
+│ │                      __name__ = 'git'                                                                                                                                        │ │
+│ │                   __package__ = 'git'                                                                                                                                        │ │
+│ │                      __path__ = ['C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git']                                                   │ │
+│ │                      __spec__ = ModuleSpec(name='git', loader=<_frozen_importlib_external.SourceFileLoader object at 0x0000028D77FF41F0>,                                    │ │
+│ │                                 origin='C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\__init__.py',                                │ │
+│ │                                 submodule_search_locations=['C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git'])                       │ │
+│ │                   __version__ = '3.1.29'                                                                                                                                     │ │
+│ │               _init_externals = <function _init_externals at 0x0000028D78014EE0>                                                                                             │ │
+│ │                         Actor = <class 'git.util.Actor'>                                                                                                                     │ │
+│ │           AmbiguousObjectName = <class 'gitdb.exc.AmbiguousObjectName'>                                                                                                      │ │
+│ │                       BadName = <class 'gitdb.exc.BadName'>                                                                                                                  │ │
+│ │                     BadObject = <class 'gitdb.exc.BadObject'>                                                                                                                │ │
+│ │                 BadObjectType = <class 'gitdb.exc.BadObjectType'>                                                                                                            │ │
+│ │                          base = <module 'git.index.base' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\base.py'>      │ │
+│ │                BaseIndexEntry = <class 'git.index.typ.BaseIndexEntry'>                                                                                                       │ │
+│ │                          Blob = <class 'git.objects.blob.Blob'>                                                                                                              │ │
+│ │                    BlobFilter = <class 'git.index.typ.BlobFilter'>                                                                                                           │ │
+│ │              BlockingLockFile = <class 'git.util.BlockingLockFile'>                                                                                                          │ │
+│ │                    CacheError = <class 'git.exc.CacheError'>                                                                                                                 │ │
+│ │                 CheckoutError = <class 'git.exc.CheckoutError'>                                                                                                              │ │
+│ │                           cmd = <module 'git.cmd' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\cmd.py'>                     │ │
+│ │                  CommandError = <class 'git.exc.CommandError'>                                                                                                               │ │
+│ │                        Commit = <class 'git.objects.commit.Commit'>                                                                                                          │ │
+│ │                        compat = <module 'git.compat' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\compat.py'>               │ │
+│ │                        config = <module 'git.config' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\config.py'>               │ │
+│ │                            db = <module 'git.db' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\db.py'>                       │ │
+│ │                          diff = <module 'git.diff' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\diff.py'>                   │ │
+│ │                          Diff = <class 'git.diff.Diff'>                                                                                                                      │ │
+│ │                      Diffable = <class 'git.diff.Diffable'>                                                                                                                  │ │
+│ │                     DiffIndex = <class 'git.diff.DiffIndex'>                                                                                                                 │ │
+│ │                     FetchInfo = <class 'git.remote.FetchInfo'>                                                                                                               │ │
+│ │                           fun = <module 'git.index.fun' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\fun.py'>        │ │
+│ │                           Git = <class 'git.cmd.Git'>                                                                                                                        │ │
+│ │                        GIT_OK = False                                                                                                                                        │ │
+│ │                GitCmdObjectDB = <class 'git.db.GitCmdObjectDB'>                                                                                                              │ │
+│ │               GitCommandError = <class 'git.exc.GitCommandError'>                                                                                                            │ │
+│ │            GitCommandNotFound = <class 'git.exc.GitCommandNotFound'>                                                                                                         │ │
+│ │               GitConfigParser = <class 'git.config.GitConfigParser'>                                                                                                         │ │
+│ │                         GitDB = <class 'gitdb.db.git.GitDB'>                                                                                                                 │ │
+│ │                      GitError = <class 'git.exc.GitError'>                                                                                                                   │ │
+│ │                          head = <module 'git.refs.head' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\head.py'>        │ │
+│ │                          HEAD = <class 'git.refs.head.HEAD'>                                                                                                                 │ │
+│ │                          Head = <class 'git.refs.head.Head'>                                                                                                                 │ │
+│ │            HookExecutionError = <class 'git.exc.HookExecutionError'>                                                                                                         │ │
+│ │                         index = <module 'git.index' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\__init__.py'>       │ │
+│ │                    IndexEntry = <class 'git.index.typ.IndexEntry'>                                                                                                           │ │
+│ │                     IndexFile = <class 'git.index.base.IndexFile'>                                                                                                           │ │
+│ │                   IndexObject = <class 'git.objects.base.IndexObject'>                                                                                                       │ │
+│ │                       inspect = <module 'inspect' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\inspect.py'>                                     │ │
+│ │                 InvalidDBRoot = <class 'gitdb.exc.InvalidDBRoot'>                                                                                                            │ │
+│ │     InvalidGitRepositoryError = <class 'git.exc.InvalidGitRepositoryError'>                                                                                                  │ │
+│ │                          List = typing.List                                                                                                                                  │ │
+│ │                      LockFile = <class 'git.util.LockFile'>                                                                                                                  │ │
+│ │                           log = <module 'git.refs.log' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\log.py'>          │ │
+│ │               NoSuchPathError = <class 'git.exc.NoSuchPathError'>                                                                                                            │ │
+│ │                     NULL_TREE = <object object at 0x0000028D740D69F0>                                                                                                        │ │
+│ │                        Object = <class 'git.objects.base.Object'>                                                                                                            │ │
+│ │                       objects = <module 'git.objects' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\objects\\__init__.py'>   │ │
+│ │                      ODBError = <class 'gitdb.exc.ODBError'>                                                                                                                 │ │
+│ │                      Optional = typing.Optional                                                                                                                              │ │
+│ │                            os = <module 'os' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\os.py'>                                               │ │
+│ │                           osp = <module 'ntpath' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ntpath.py'>                                       │ │
+│ │                    ParseError = <class 'gitdb.exc.ParseError'>                                                                                                               │ │
+│ │                      PathLike = typing.Union[str, os.PathLike[str]]                                                                                                          │ │
+│ │                      PushInfo = <class 'git.remote.PushInfo'>                                                                                                                │ │
+│ │                     reference = <module 'git.refs.reference' from                                                                                                            │ │
+│ │                                 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\reference.py'>                                │ │
+│ │                     Reference = <class 'git.refs.reference.Reference'>                                                                                                       │ │
+│ │                        RefLog = <class 'git.refs.log.RefLog'>                                                                                                                │ │
+│ │                   RefLogEntry = <class 'git.refs.log.RefLogEntry'>                                                                                                           │ │
+│ │                       refresh = <function refresh at 0x0000028D77FDDD80>                                                                                                     │ │
+│ │                          refs = <module 'git.refs' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\__init__.py'>         │ │
+│ │                        remote = <module 'git.remote' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\remote.py'>               │ │
+│ │                        Remote = <class 'git.remote.Remote'>                                                                                                                  │ │
+│ │                RemoteProgress = <class 'git.util.RemoteProgress'>                                                                                                            │ │
+│ │               RemoteReference = <class 'git.refs.remote.RemoteReference'>                                                                                                    │ │
+│ │    remove_password_if_present = <function remove_password_if_present at 0x0000028D780BDD80>                                                                                  │ │
+│ │                          repo = <module 'git.repo' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\repo\\__init__.py'>         │ │
+│ │                          Repo = <class 'git.repo.base.Repo'>                                                                                                                 │ │
+│ │          RepositoryDirtyError = <class 'git.exc.RepositoryDirtyError'>                                                                                                       │ │
+│ │                        rmtree = <function rmtree at 0x0000028D780BD240>                                                                                                      │ │
+│ │                    RootModule = <class 'git.objects.submodule.root.RootModule'>                                                                                              │ │
+│ │            RootUpdateProgress = <class 'git.objects.submodule.root.RootUpdateProgress'>                                                                                      │ │
+│ │                   safe_decode = <function safe_decode at 0x0000028D78015480>                                                                                                 │ │
+│ │                      Sequence = typing.Sequence                                                                                                                              │ │
+│ │                     StageType = <class 'int'>                                                                                                                                │ │
+│ │                         Stats = <class 'git.util.Stats'>                                                                                                                     │ │
+│ │                     Submodule = <class 'git.objects.submodule.base.Submodule'>                                                                                               │ │
+│ │                      symbolic = <module 'git.refs.symbolic' from                                                                                                             │ │
+│ │                                 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\symbolic.py'>                                 │ │
+│ │             SymbolicReference = <class 'git.refs.symbolic.SymbolicReference'>                                                                                                │ │
+│ │                           sys = <module 'sys' (built-in)>                                                                                                                    │ │
+│ │                           tag = <module 'git.refs.tag' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\tag.py'>          │ │
+│ │                           Tag = <class 'git.refs.tag.TagReference'>                                                                                                          │ │
+│ │                     TagObject = <class 'git.objects.tag.TagObject'>                                                                                                          │ │
+│ │                  TagReference = <class 'git.refs.tag.TagReference'>                                                                                                          │ │
+│ │                    to_hex_sha = <function to_hex_sha at 0x0000028D78021480>                                                                                                  │ │
+│ │                          Tree = <class 'git.objects.tree.Tree'>                                                                                                              │ │
+│ │                  TreeModifier = <class 'git.objects.tree.TreeModifier'>                                                                                                      │ │
+│ │                         Tuple = typing.Tuple                                                                                                                                 │ │
+│ │                           typ = <module 'git.index.typ' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\typ.py'>        │ │
+│ │                 TYPE_CHECKING = False                                                                                                                                        │ │
+│ │                         types = <module 'git.types' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\types.py'>                 │ │
+│ │                         Union = typing.Union                                                                                                                                 │ │
+│ │          UnmergedEntriesError = <class 'git.exc.UnmergedEntriesError'>                                                                                                       │ │
+│ │          UnsupportedOperation = <class 'gitdb.exc.UnsupportedOperation'>                                                                                                     │ │
+│ │                UpdateProgress = <class 'git.objects.submodule.base.UpdateProgress'>                                                                                          │ │
+│ │                          util = <module 'git.index.util' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\util.py'>      │ │
+│ │ WorkTreeRepositoryUnsupported = <class 'git.exc.WorkTreeRepositoryUnsupported'>                                                                                              │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\git\__init__.py:76 in refresh                                                                           │
+│                                                                                                                                                                                  │
+│   73 │   global GIT_OK                                                                        ╭── locals ───╮                                                                    │
+│   74 │   GIT_OK = False                                                                       │ path = None │                                                                    │
+│   75 │                                                                                        ╰─────────────╯                                                                    │
+│ ❱ 76 │   if not Git.refresh(path=path):                                                                                                                                          │
+│   77 │   │   return                                                                                                                                                              │
+│   78 │   if not FetchInfo.refresh():                                                                                                                                             │
+│   79 │   │   return                                                                                                                                                              │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\git\cmd.py:389 in refresh                                                                               │
+│                                                                                                                                                                                  │
+│    386 │   │   │   │   │   if mode in warn:                                                                                                                                      │
+│    387 │   │   │   │   │   │   print("WARNING: %s" % err)                                                                                                                        │
+│    388 │   │   │   │   │   else:                                                                                                                                                 │
+│ ❱  389 │   │   │   │   │   │   raise ImportError(err)                                                                                                                            │
+│    390 │   │   │   │   else:                                                                                                                                                     │
+│    391 │   │   │   │   │   err = (                                                                                                                                               │
+│    392 │   │   │   │   │   │   dedent(                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                            │
+│ │     cls = <class 'git.cmd.Git'>                                                                   │                                                                            │
+│ │     err = 'Bad git executable.\nThe git executable must be specified in one of the following'+534 │                                                                            │
+│ │   error = ['error', 'e', 'raise', 'r', '2']                                                       │                                                                            │
+│ │ has_git = False                                                                                   │                                                                            │
+│ │    mode = 'raise'                                                                                 │                                                                            │
+│ │ new_git = 'git'                                                                                   │                                                                            │
+│ │ old_git = None                                                                                    │                                                                            │
+│ │    path = None                                                                                    │                                                                            │
+│ │   quiet = ['quiet', 'q', 'silence', 's', 'none', 'n', '0']                                        │                                                                            │
+│ │    warn = ['warn', 'w', 'warning', '1']                                                           │                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\briefcase\integrations\git.py:27 in verify_git_is_installed                                             │
+│                                                                                                                                                                                  │
+│   24 │                                                                                        ╭─────────────────────────────────── locals ───────────────────────────────────╮   │
+│   25 │   # Check whether the git executable could be imported.                                │ tools = <briefcase.integrations.base.ToolCache object at 0x0000028D74BC5270> │   │
+│   26 │   try:                                                                                 ╰──────────────────────────────────────────────────────────────────────────────╯   │
+│ ❱ 27 │   │   import git                                                                                                                                                          │
+│   28 │   except ImportError as e:  # pragma: no cover                                                                                                                            │
+│   29 │   │   # macOS provides git as part of the Xcode command line tools,                                                                                                       │
+│   30 │   │   # and also hijacks /usr/bin/git with a trigger that prompts the                                                                                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\git\__init__.py:91 in <module>                                                                          │
+│                                                                                                                                                                                  │
+│   88 try:                                                                                                                                                                        │
+│   89 │   refresh()                                                                                                                                                               │
+│   90 except Exception as exc:                                                                                                                                                    │
+│ ❱ 91 │   raise ImportError("Failed to initialize: {0}".format(exc)) from exc                                                                                                     │
+│   92 #################                                                                                                                                                           │
+│   93                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                       __all__ = [                                                                                                                                            │ │
+│ │                                 │   'BadName',                                                                                                                               │ │
+│ │                                 │   'to_hex_sha',                                                                                                                            │ │
+│ │                                 │   'ODBError',                                                                                                                              │ │
+│ │                                 │   'InvalidDBRoot',                                                                                                                         │ │
+│ │                                 │   'BadObject',                                                                                                                             │ │
+│ │                                 │   'ParseError',                                                                                                                            │ │
+│ │                                 │   'AmbiguousObjectName',                                                                                                                   │ │
+│ │                                 │   'BadObjectType',                                                                                                                         │ │
+│ │                                 │   'UnsupportedOperation',                                                                                                                  │ │
+│ │                                 │   'safe_decode',                                                                                                                           │ │
+│ │                                 │   ... +63                                                                                                                                  │ │
+│ │                                 ]                                                                                                                                            │ │
+│ │                  __builtins__ = {                                                                                                                                            │ │
+│ │                                 │   '__name__': 'builtins',                                                                                                                  │ │
+│ │                                 │   '__doc__': 'Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil'+46,                                      │ │
+│ │                                 │   '__package__': '',                                                                                                                       │ │
+│ │                                 │   '__loader__': <class '_frozen_importlib.BuiltinImporter'>,                                                                               │ │
+│ │                                 │   '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>, origin='built-in'),                          │ │
+│ │                                 │   '__build_class__': <built-in function __build_class__>,                                                                                  │ │
+│ │                                 │   '__import__': <built-in function __import__>,                                                                                            │ │
+│ │                                 │   'abs': <built-in function abs>,                                                                                                          │ │
+│ │                                 │   'all': <built-in function all>,                                                                                                          │ │
+│ │                                 │   'any': <built-in function any>,                                                                                                          │ │
+│ │                                 │   ... +146                                                                                                                                 │ │
+│ │                                 }                                                                                                                                            │ │
+│ │                    __cached__ = 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\__p'+33                                             │ │
+│ │                       __doc__ = None                                                                                                                                         │ │
+│ │                      __file__ = 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\__i'+8                                              │ │
+│ │                    __loader__ = <_frozen_importlib_external.SourceFileLoader object at 0x0000028D77FF41F0>                                                                   │ │
+│ │                      __name__ = 'git'                                                                                                                                        │ │
+│ │                   __package__ = 'git'                                                                                                                                        │ │
+│ │                      __path__ = ['C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git']                                                   │ │
+│ │                      __spec__ = ModuleSpec(name='git', loader=<_frozen_importlib_external.SourceFileLoader object at 0x0000028D77FF41F0>,                                    │ │
+│ │                                 origin='C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\__init__.py',                                │ │
+│ │                                 submodule_search_locations=['C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git'])                       │ │
+│ │                   __version__ = '3.1.29'                                                                                                                                     │ │
+│ │               _init_externals = <function _init_externals at 0x0000028D78014EE0>                                                                                             │ │
+│ │                         Actor = <class 'git.util.Actor'>                                                                                                                     │ │
+│ │           AmbiguousObjectName = <class 'gitdb.exc.AmbiguousObjectName'>                                                                                                      │ │
+│ │                       BadName = <class 'gitdb.exc.BadName'>                                                                                                                  │ │
+│ │                     BadObject = <class 'gitdb.exc.BadObject'>                                                                                                                │ │
+│ │                 BadObjectType = <class 'gitdb.exc.BadObjectType'>                                                                                                            │ │
+│ │                          base = <module 'git.index.base' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\base.py'>      │ │
+│ │                BaseIndexEntry = <class 'git.index.typ.BaseIndexEntry'>                                                                                                       │ │
+│ │                          Blob = <class 'git.objects.blob.Blob'>                                                                                                              │ │
+│ │                    BlobFilter = <class 'git.index.typ.BlobFilter'>                                                                                                           │ │
+│ │              BlockingLockFile = <class 'git.util.BlockingLockFile'>                                                                                                          │ │
+│ │                    CacheError = <class 'git.exc.CacheError'>                                                                                                                 │ │
+│ │                 CheckoutError = <class 'git.exc.CheckoutError'>                                                                                                              │ │
+│ │                           cmd = <module 'git.cmd' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\cmd.py'>                     │ │
+│ │                  CommandError = <class 'git.exc.CommandError'>                                                                                                               │ │
+│ │                        Commit = <class 'git.objects.commit.Commit'>                                                                                                          │ │
+│ │                        compat = <module 'git.compat' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\compat.py'>               │ │
+│ │                        config = <module 'git.config' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\config.py'>               │ │
+│ │                            db = <module 'git.db' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\db.py'>                       │ │
+│ │                          diff = <module 'git.diff' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\diff.py'>                   │ │
+│ │                          Diff = <class 'git.diff.Diff'>                                                                                                                      │ │
+│ │                      Diffable = <class 'git.diff.Diffable'>                                                                                                                  │ │
+│ │                     DiffIndex = <class 'git.diff.DiffIndex'>                                                                                                                 │ │
+│ │                     FetchInfo = <class 'git.remote.FetchInfo'>                                                                                                               │ │
+│ │                           fun = <module 'git.index.fun' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\fun.py'>        │ │
+│ │                           Git = <class 'git.cmd.Git'>                                                                                                                        │ │
+│ │                        GIT_OK = False                                                                                                                                        │ │
+│ │                GitCmdObjectDB = <class 'git.db.GitCmdObjectDB'>                                                                                                              │ │
+│ │               GitCommandError = <class 'git.exc.GitCommandError'>                                                                                                            │ │
+│ │            GitCommandNotFound = <class 'git.exc.GitCommandNotFound'>                                                                                                         │ │
+│ │               GitConfigParser = <class 'git.config.GitConfigParser'>                                                                                                         │ │
+│ │                         GitDB = <class 'gitdb.db.git.GitDB'>                                                                                                                 │ │
+│ │                      GitError = <class 'git.exc.GitError'>                                                                                                                   │ │
+│ │                          head = <module 'git.refs.head' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\head.py'>        │ │
+│ │                          HEAD = <class 'git.refs.head.HEAD'>                                                                                                                 │ │
+│ │                          Head = <class 'git.refs.head.Head'>                                                                                                                 │ │
+│ │            HookExecutionError = <class 'git.exc.HookExecutionError'>                                                                                                         │ │
+│ │                         index = <module 'git.index' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\__init__.py'>       │ │
+│ │                    IndexEntry = <class 'git.index.typ.IndexEntry'>                                                                                                           │ │
+│ │                     IndexFile = <class 'git.index.base.IndexFile'>                                                                                                           │ │
+│ │                   IndexObject = <class 'git.objects.base.IndexObject'>                                                                                                       │ │
+│ │                       inspect = <module 'inspect' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\inspect.py'>                                     │ │
+│ │                 InvalidDBRoot = <class 'gitdb.exc.InvalidDBRoot'>                                                                                                            │ │
+│ │     InvalidGitRepositoryError = <class 'git.exc.InvalidGitRepositoryError'>                                                                                                  │ │
+│ │                          List = typing.List                                                                                                                                  │ │
+│ │                      LockFile = <class 'git.util.LockFile'>                                                                                                                  │ │
+│ │                           log = <module 'git.refs.log' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\log.py'>          │ │
+│ │               NoSuchPathError = <class 'git.exc.NoSuchPathError'>                                                                                                            │ │
+│ │                     NULL_TREE = <object object at 0x0000028D740D69F0>                                                                                                        │ │
+│ │                        Object = <class 'git.objects.base.Object'>                                                                                                            │ │
+│ │                       objects = <module 'git.objects' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\objects\\__init__.py'>   │ │
+│ │                      ODBError = <class 'gitdb.exc.ODBError'>                                                                                                                 │ │
+│ │                      Optional = typing.Optional                                                                                                                              │ │
+│ │                            os = <module 'os' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\os.py'>                                               │ │
+│ │                           osp = <module 'ntpath' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ntpath.py'>                                       │ │
+│ │                    ParseError = <class 'gitdb.exc.ParseError'>                                                                                                               │ │
+│ │                      PathLike = typing.Union[str, os.PathLike[str]]                                                                                                          │ │
+│ │                      PushInfo = <class 'git.remote.PushInfo'>                                                                                                                │ │
+│ │                     reference = <module 'git.refs.reference' from                                                                                                            │ │
+│ │                                 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\reference.py'>                                │ │
+│ │                     Reference = <class 'git.refs.reference.Reference'>                                                                                                       │ │
+│ │                        RefLog = <class 'git.refs.log.RefLog'>                                                                                                                │ │
+│ │                   RefLogEntry = <class 'git.refs.log.RefLogEntry'>                                                                                                           │ │
+│ │                       refresh = <function refresh at 0x0000028D77FDDD80>                                                                                                     │ │
+│ │                          refs = <module 'git.refs' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\__init__.py'>         │ │
+│ │                        remote = <module 'git.remote' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\remote.py'>               │ │
+│ │                        Remote = <class 'git.remote.Remote'>                                                                                                                  │ │
+│ │                RemoteProgress = <class 'git.util.RemoteProgress'>                                                                                                            │ │
+│ │               RemoteReference = <class 'git.refs.remote.RemoteReference'>                                                                                                    │ │
+│ │    remove_password_if_present = <function remove_password_if_present at 0x0000028D780BDD80>                                                                                  │ │
+│ │                          repo = <module 'git.repo' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\repo\\__init__.py'>         │ │
+│ │                          Repo = <class 'git.repo.base.Repo'>                                                                                                                 │ │
+│ │          RepositoryDirtyError = <class 'git.exc.RepositoryDirtyError'>                                                                                                       │ │
+│ │                        rmtree = <function rmtree at 0x0000028D780BD240>                                                                                                      │ │
+│ │                    RootModule = <class 'git.objects.submodule.root.RootModule'>                                                                                              │ │
+│ │            RootUpdateProgress = <class 'git.objects.submodule.root.RootUpdateProgress'>                                                                                      │ │
+│ │                   safe_decode = <function safe_decode at 0x0000028D78015480>                                                                                                 │ │
+│ │                      Sequence = typing.Sequence                                                                                                                              │ │
+│ │                     StageType = <class 'int'>                                                                                                                                │ │
+│ │                         Stats = <class 'git.util.Stats'>                                                                                                                     │ │
+│ │                     Submodule = <class 'git.objects.submodule.base.Submodule'>                                                                                               │ │
+│ │                      symbolic = <module 'git.refs.symbolic' from                                                                                                             │ │
+│ │                                 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\symbolic.py'>                                 │ │
+│ │             SymbolicReference = <class 'git.refs.symbolic.SymbolicReference'>                                                                                                │ │
+│ │                           sys = <module 'sys' (built-in)>                                                                                                                    │ │
+│ │                           tag = <module 'git.refs.tag' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\refs\\tag.py'>          │ │
+│ │                           Tag = <class 'git.refs.tag.TagReference'>                                                                                                          │ │
+│ │                     TagObject = <class 'git.objects.tag.TagObject'>                                                                                                          │ │
+│ │                  TagReference = <class 'git.refs.tag.TagReference'>                                                                                                          │ │
+│ │                    to_hex_sha = <function to_hex_sha at 0x0000028D78021480>                                                                                                  │ │
+│ │                          Tree = <class 'git.objects.tree.Tree'>                                                                                                              │ │
+│ │                  TreeModifier = <class 'git.objects.tree.TreeModifier'>                                                                                                      │ │
+│ │                         Tuple = typing.Tuple                                                                                                                                 │ │
+│ │                           typ = <module 'git.index.typ' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\typ.py'>        │ │
+│ │                 TYPE_CHECKING = False                                                                                                                                        │ │
+│ │                         types = <module 'git.types' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\types.py'>                 │ │
+│ │                         Union = typing.Union                                                                                                                                 │ │
+│ │          UnmergedEntriesError = <class 'git.exc.UnmergedEntriesError'>                                                                                                       │ │
+│ │          UnsupportedOperation = <class 'gitdb.exc.UnsupportedOperation'>                                                                                                     │ │
+│ │                UpdateProgress = <class 'git.objects.submodule.base.UpdateProgress'>                                                                                          │ │
+│ │                          util = <module 'git.index.util' from 'C:\\Users\\tzema\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\git\\index\\util.py'>      │ │
+│ │ WorkTreeRepositoryUnsupported = <class 'git.exc.WorkTreeRepositoryUnsupported'>                                                                                              │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\briefcase\__main__.py:21 in main                                                                        │
+│                                                                                                                                                                                  │
+│   18 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   19 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   20 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ ❱ 21 │   │   command(**options)                                                                                                                                                  │
+│   22 │   except HelpText as e:                                                                                                                                                   │
+│   23 │   │   logger.info()                                                                                                                                                       │
+│   24 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │       command = <briefcase.commands.new.NewCommand object at 0x0000028D74BC6890>                                                                                             │ │
+│ │       Command = <class 'briefcase.commands.new.NewCommand'>                                                                                                                  │ │
+│ │       console = <briefcase.console.Console object at 0x0000028D746C6200>                                                                                                     │ │
+│ │             e = BriefcaseCommandError('Briefcase requires git, but it is not installed (or is not on your PATH). Visit:\n\n    https://git-scm.com/\n\nto download and       │ │
+│ │                 install git manually.\n\nIf you have installed git recently and are still getting this error, you may\nneed to restart your terminal session.\n')            │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │        logger = <briefcase.console.Log object at 0x0000028D746C6230>                                                                                                         │ │
+│ │       options = {'template': None}                                                                                                                                           │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\briefcase\commands\new.py:541 in __call__                                                               │
+│                                                                                                                                                                                  │
+│   538 │                                                                                        ╭────────────────────────────────── locals ───────────────────────────────────╮   │
+│   539 │   def __call__(self, template: Optional[str] = None, **options):                       │  options = {}                                                               │   │
+│   540 │   │   # Confirm all required tools are available                                       │     self = <briefcase.commands.new.NewCommand object at 0x0000028D74BC6890> │   │
+│ ❱ 541 │   │   self.verify_tools()                                                              │ template = None                                                             │   │
+│   542 │   │                                                                                    ╰─────────────────────────────────────────────────────────────────────────────╯   │
+│   543 │   │   return self.new_app(template=template, **options)                                                                                                                  │
+│   544                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\briefcase\commands\new.py:537 in verify_tools                                                           │
+│                                                                                                                                                                                  │
+│   534 │   │   missing.                                                                         ╭─────────────────────────────────── locals ───────────────────────────────────╮  │
+│   535 │   │   """                                                                              │ __class__ = <class 'briefcase.commands.new.NewCommand'>                      │  │
+│   536 │   │   super().verify_tools()                                                           │      self = <briefcase.commands.new.NewCommand object at 0x0000028D74BC6890> │  │
+│ ❱ 537 │   │   git.verify_git_is_installed(tools=self.tools)                                    ╰──────────────────────────────────────────────────────────────────────────────╯  │
+│   538 │                                                                                                                                                                          │
+│   539 │   def __call__(self, template: Optional[str] = None, **options):                                                                                                         │
+│   540 │   │   # Confirm all required tools are available                                                                                                                         │
+│                                                                                                                                                                                  │
+│ C:\Users\tzema\AppData\Local\Programs\Python\Python310\lib\site-packages\briefcase\integrations\git.py:52 in verify_git_is_installed                                             │
+│                                                                                                                                                                                  │
+│   49 │   │   │   ) from e                                                                     ╭─────────────────────────────────── locals ───────────────────────────────────╮   │
+│   50 │   │                                                                                    │ tools = <briefcase.integrations.base.ToolCache object at 0x0000028D74BC5270> │   │
+│   51 │   │   else:                                                                            ╰──────────────────────────────────────────────────────────────────────────────╯   │
+│ ❱ 52 │   │   │   raise BriefcaseCommandError(                                                                                                                                    │
+│   53 │   │   │   │   """\                                                                                                                                                        │
+│   54 Briefcase requires git, but it is not installed (or is not on your PATH). Visit:                                                                                            │
+│   55                                                                                                                                                                             │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Briefcase requires git, but it is not installed (or is not on your PATH). Visit:
+
+    https://git-scm.com/
+
+to download and install git manually.
+
+If you have installed git recently and are still getting this error, you may
+need to restart your terminal session.
+
