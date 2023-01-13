@@ -4,6 +4,7 @@
 *.build/
 *.onefile-build/
 !1-2-3 sound effects.exe
+beeware/.idea/
 *.py
 *.pyw
 !1-2-3 sound effects.py
